@@ -1,0 +1,172 @@
+:root {
+  --bg: #f4f6f9;
+  --card: #ffffff;
+  --text: #1b2430;
+  --muted: #617083;
+  --border: #e3e8ef;
+  --accent: #0f766e;
+  --accent-contrast: #ffffff;
+  --accent-soft: rgba(15, 118, 110, 0.10);
+  --best-bg: #ecfdf7;
+  --best-border: #99e5cf;
+  --bar: rgba(15, 118, 110, 0.22);
+  --warn: #b45309;
+  --warn-bg: #fef3c7;
+  --shadow: 0 1px 3px rgba(16, 24, 40, 0.07);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e141b;
+    --card: #161e28;
+    --text: #e7edf4;
+    --muted: #93a1b3;
+    --border: #273241;
+    --accent: #2dd4bf;
+    --accent-contrast: #06211d;
+    --accent-soft: rgba(45, 212, 191, 0.14);
+    --best-bg: #10302a;
+    --best-border: #1f5c4f;
+    --bar: rgba(45, 212, 191, 0.25);
+    --warn: #fbbf24;
+    --warn-bg: rgba(251, 191, 36, 0.14);
+    --shadow: none;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0 auto;
+  padding: 20px 14px 40px;
+  max-width: 860px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  line-height: 1.55;
+}
+a { color: var(--accent); }
+
+.page-head h1 { margin: 0 0 4px; font-size: 1.7rem; }
+.tagline { margin: 0 0 6px; color: var(--muted); }
+.freshness { margin: 0 0 16px; font-size: 0.85rem; color: var(--muted); }
+.freshness .old { color: var(--warn); font-weight: 600; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 14px;
+  box-shadow: var(--shadow);
+}
+
+/* ---- controls ---- */
+.control-group { margin-bottom: 12px; }
+.control-row { display: flex; flex-wrap: wrap; gap: 12px 22px; }
+.control-row .control-group { margin-bottom: 0; }
+.control-label { display: block; font-size: 0.78rem; font-weight: 700; color: var(--muted); margin-bottom: 6px; letter-spacing: 0.03em; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips button, .segmented button {
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 6px 13px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.chips button .code { color: var(--muted); font-size: 0.78em; margin-left: 3px; }
+.chips button.active, .segmented button.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-contrast);
+  font-weight: 700;
+}
+.chips button.active .code { color: inherit; opacity: 0.75; }
+
+.segmented { display: inline-flex; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.segmented button { border: none; border-radius: 0; }
+.segmented button + button { border-left: 1px solid var(--border); }
+
+#amount {
+  font: inherit;
+  font-size: 1rem;
+  width: 150px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--card);
+  color: var(--text);
+}
+#amount:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.channel-hint { margin: 10px 0 0; font-size: 0.82rem; color: var(--muted); }
+
+/* ---- best card ---- */
+.best { background: var(--best-bg); border-color: var(--best-border); }
+.best .best-label { font-size: 0.8rem; font-weight: 700; color: var(--accent); letter-spacing: 0.05em; }
+.best .best-main { font-size: 1.25rem; font-weight: 800; margin: 2px 0; }
+.best .best-sub { font-size: 0.86rem; color: var(--muted); margin: 0; }
+
+/* ---- table ---- */
+.table-card { padding: 16px 0 8px; }
+.table-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 6px; padding: 0 16px 8px; }
+.table-head h2 { margin: 0; font-size: 1.05rem; }
+.stale-toggle { font-size: 0.82rem; color: var(--muted); user-select: none; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+th, td { padding: 8px 10px; text-align: left; border-top: 1px solid var(--border); }
+thead th { border-top: none; font-size: 0.75rem; color: var(--muted); letter-spacing: 0.04em; white-space: nowrap; }
+th.num, td.num { text-align: right; font-variant-numeric: tabular-nums; }
+th:first-child, td:first-child { padding-left: 16px; }
+th:last-child, td:last-child { padding-right: 16px; }
+.col-rank { width: 2em; color: var(--muted); }
+
+tr.best-row { background: var(--best-bg); }
+tr.best-row td:nth-child(2) { font-weight: 700; }
+tr.stale-row { opacity: 0.62; }
+
+td .bank-link { color: inherit; text-decoration: none; }
+td .bank-link:hover { text-decoration: underline; color: var(--accent); }
+
+.total-cell { min-width: 108px; }
+.total-num { font-weight: 650; }
+.diff { display: block; font-size: 0.74rem; color: var(--warn); }
+.diff.zero, .diff.good { color: var(--accent); font-weight: 700; }
+.bar { height: 4px; border-radius: 2px; background: var(--bar); margin-top: 4px; }
+tr.best-row .bar { background: var(--accent); }
+
+.fee-note, .updated-date { display: block; font-size: 0.72rem; color: var(--muted); white-space: nowrap; }
+.badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--warn-bg);
+  color: var(--warn);
+  margin-left: 5px;
+  white-space: nowrap;
+}
+.badge-accent { background: var(--accent-soft); color: var(--accent); }
+td.updated { font-size: 0.8rem; color: var(--muted); white-space: nowrap; }
+td.updated.stale { color: var(--warn); }
+
+.table-note { margin: 10px 16px 8px; font-size: 0.8rem; color: var(--muted); }
+.status-msg { padding: 24px 16px; text-align: center; color: var(--muted); }
+
+/* ---- footer ---- */
+.page-foot { margin-top: 26px; font-size: 0.78rem; color: var(--muted); }
+.page-foot p { margin: 6px 0; }
+
+@media (max-width: 560px) {
+  body { padding: 14px 8px 30px; }
+  .page-head h1 { font-size: 1.4rem; }
+  th, td { padding: 7px 6px; }
+  th:first-child, td:first-child { padding-left: 10px; }
+  th:last-child, td:last-child { padding-right: 10px; }
+  .col-updated, td.updated { display: none; }
+  table { font-size: 0.88rem; }
+  #amount { width: 130px; }
+}

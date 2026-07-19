@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="比較台灣各銀行牌告匯率與手續費,輸入金額直接算出含手續費總成本排名,出國換匯不吃虧。">
+<title>台灣換匯比價 — 哪家銀行換外幣最划算?</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💱</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="page-head">
+  <h1>💱 台灣換匯比價</h1>
+  <p class="tagline">輸入金額,直接算出<strong>含手續費的總成本排名</strong>——出國前知道去哪家銀行換最划算。</p>
+  <p class="freshness" id="freshness">資料載入中…</p>
+</header>
+
+<main>
+  <section class="controls card">
+    <div class="control-group">
+      <span class="control-label">幣別</span>
+      <div class="chips" id="currency-chips" role="tablist"></div>
+    </div>
+    <div class="control-row">
+      <div class="control-group">
+        <span class="control-label">我要</span>
+        <div class="segmented" id="direction-seg">
+          <button data-value="buy" class="active">買外幣(出國)</button>
+          <button data-value="sell">賣外幣(回國)</button>
+        </div>
+      </div>
+      <div class="control-group">
+        <span class="control-label">方式</span>
+        <div class="segmented" id="channel-seg">
+          <button data-value="cash" class="active">現鈔</button>
+          <button data-value="spot">即期</button>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="amount">金額 <span id="amount-unit"></span></label>
+        <input type="number" id="amount" min="0" step="any" inputmode="decimal">
+      </div>
+    </div>
+    <p class="channel-hint" id="channel-hint"></p>
+  </section>
+
+  <section class="best card" id="best-card" hidden></section>
+
+  <section class="card table-card">
+    <div class="table-head">
+      <h2 id="table-title"></h2>
+      <label class="stale-toggle"><input type="checkbox" id="show-stale"> 顯示過舊資料 (<span id="stale-count">0</span>)</label>
+    </div>
+    <div class="table-wrap">
+      <table id="rate-table">
+        <thead>
+          <tr>
+            <th class="col-rank">#</th>
+            <th>銀行</th>
+            <th class="num">匯率</th>
+            <th class="num col-fee">手續費</th>
+            <th class="num" id="total-th">總成本</th>
+            <th class="col-updated">更新</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+    <p class="table-note" id="table-note"></p>
+  </section>
+</main>
+
+<footer class="page-foot">
+  <p>資料來源:<a id="source-link" href="https://www.findrate.tw/" target="_blank" rel="noopener">比率網 findrate.tw</a>(各銀行牌告匯率)。
+  牌告匯率與手續費僅供參考,<strong>線上結匯、外幣 ATM 常有額外減碼優惠</strong>,實際成交以各銀行為準。本站非投資建議。</p>
+  <p>「更新」欄取自各銀行牌價的實際更新日期——超過 3 天未更新的銀行預設排除,避免被過期牌價誤導。</p>
+  <p><a href="https://github.com/Mullerchen910912/taiwan-fx-rates" target="_blank" rel="noopener">GitHub</a> · 每個銀行營業日自動更新 4 次</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
