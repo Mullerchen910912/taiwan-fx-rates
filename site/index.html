@@ -12,7 +12,13 @@
 <header class="page-head">
   <h1>💱 台灣換匯比價</h1>
   <p class="tagline">輸入金額,直接算出<strong>含手續費的總成本排名</strong>——出國前知道去哪家銀行換最划算。</p>
-  <p class="freshness" id="freshness">資料載入中…</p>
+  <div class="freshness-row">
+    <p class="freshness" id="freshness">資料載入中…</p>
+    <button type="button" id="refresh-btn" class="refresh-btn" title="重新抓取最新一次自動更新的牌價">
+      <span class="refresh-icon" aria-hidden="true">↻</span> 更新匯率
+    </button>
+    <span class="refresh-flash" id="refresh-flash" role="status"></span>
+  </div>
 </header>
 
 <main>

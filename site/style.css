@@ -52,8 +52,37 @@ a { color: var(--accent); }
 
 .page-head h1 { margin: 0 0 4px; font-size: 1.7rem; }
 .tagline { margin: 0 0 6px; color: var(--muted); }
-.freshness { margin: 0 0 16px; font-size: 0.85rem; color: var(--muted); }
+.freshness-row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; margin-bottom: 16px; }
+.freshness { margin: 0; font-size: 0.85rem; color: var(--muted); }
 .freshness .old { color: var(--warn); font-weight: 600; }
+
+.refresh-btn {
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 12px;
+  border: 1px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.refresh-btn:hover { background: var(--accent); color: var(--accent-contrast); }
+.refresh-btn:disabled { opacity: 0.6; cursor: default; }
+.refresh-icon { display: inline-block; font-size: 1.05em; }
+.refresh-btn.loading .refresh-icon { animation: spin 0.7s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.refresh-flash { font-size: 0.8rem; opacity: 0; transition: opacity 0.25s; }
+.refresh-flash.show { opacity: 1; }
+.refresh-flash.ok { color: var(--accent); }
+.refresh-flash.err { color: var(--warn); }
+@media (prefers-reduced-motion: reduce) {
+  .refresh-btn.loading .refresh-icon { animation: none; }
+}
 
 .card {
   background: var(--card);

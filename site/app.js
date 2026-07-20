@@ -25,10 +25,13 @@ const fmtTWD = (n) => "NT$" + Math.round(n).toLocaleString("zh-TW");
 
 /* data/ sits next to index.html on the published site; one level up when
    serving the repo root during local development. */
-async function loadJSON(name) {
+async function loadJSON(name, bust = false) {
+  // A cache-bust query param forces past GitHub Pages' CDN edge cache, so the
+  // manual refresh button actually pulls the newest published snapshot.
+  const q = bust ? `?t=${Date.now()}` : "";
   for (const path of [`./data/${name}`, `../data/${name}`]) {
     try {
-      const resp = await fetch(path, { cache: "no-store" });
+      const resp = await fetch(path + q, { cache: "no-store" });
       if (resp.ok) return await resp.json();
     } catch (_) { /* try next */ }
   }
@@ -221,6 +224,41 @@ function renderFreshness() {
     (failed.length ? ` · <span class="old">注意:${esc(failed.join("、"))} 本次抓取失敗,顯示的是舊資料</span>` : "");
 }
 
+// Manual refresh: re-pull the newest PUBLISHED snapshot (cache-busted) and
+// re-render. A static page can't scrape banks live (CORS + no server), so this
+// fetches the latest auto-scraped data rather than triggering a new scrape.
+async function refreshNow() {
+  const btn = $("#refresh-btn");
+  const flash = $("#refresh-flash");
+  if (btn.disabled) return;
+  const prevGenerated = DATA.generated_at;
+  btn.disabled = true;
+  btn.classList.add("loading");
+  flash.textContent = "更新中…";
+  flash.className = "refresh-flash";
+  const fresh = await loadJSON("latest.json", true);
+  if (fresh) {
+    DATA = fresh;
+    const promos = await loadJSON("promos.json", true);
+    if (promos) PROMOS = promos;
+    if (!DATA.currencies[state.code]) state.code = Object.keys(DATA.currencies)[0];
+    buildCurrencyChips();
+    renderFreshness();
+    render();
+    const changed = DATA.generated_at !== prevGenerated;
+    flash.textContent = changed
+      ? `已更新到 ${DATA.generated_at.slice(11, 16)}`
+      : "已是最新發布資料";
+    flash.className = "refresh-flash show ok";
+  } else {
+    flash.textContent = "更新失敗,請稍後再試";
+    flash.className = "refresh-flash show err";
+  }
+  btn.disabled = false;
+  btn.classList.remove("loading");
+  setTimeout(() => { flash.className = flash.className.replace(" show", ""); }, 4000);
+}
+
 /* ---------- controls ---------- */
 
 function buildCurrencyChips() {
@@ -263,6 +301,7 @@ async function init() {
     render();
   });
   $("#show-stale").addEventListener("change", (e) => { state.showStale = e.target.checked; render(); });
+  $("#refresh-btn").addEventListener("click", refreshNow);
   renderFreshness();
   render();
 }

@@ -2,15 +2,11 @@ name: Update rates and deploy
 
 on:
   schedule:
-    # Taipei = UTC+8. Weekdays 09:30 / 11:30 / 14:30 / 17:30 Taipei,
-    # covering bank business hours. Kept to 4 runs/day to stay polite
-    # to the (ad-supported) data source.
-    - cron: "30 1 * * 1-5"
-    - cron: "30 3 * * 1-5"
-    - cron: "30 6 * * 1-5"
-    - cron: "30 9 * * 1-5"
-    # One Saturday run (digital-bank rates still move on weekends).
-    - cron: "0 3 * * 6"
+    # Taipei = UTC+8 (no DST). Every 2h from 09:00–21:00 Taipei, every day,
+    # so the site's "更新匯率" button always has a snapshot < ~2h old to pull.
+    # Bank cash boards only move a few times a day, so this is plenty without
+    # hammering the (ad-supported) data source.
+    - cron: "0 1,3,5,7,9,11,13 * * *"
   workflow_dispatch:
   push:
     branches: [main]
