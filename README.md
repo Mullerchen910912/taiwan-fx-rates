@@ -31,6 +31,7 @@ flowchart LR
 - **Fee parser** (`scraper/fees.py`): the fee column is human-written Chinese free text. The observed corpus reduces to three computable shapes — flat (`每筆NT$100`), percent-with-floor (`總額0.7%,最低NT$100`), free (`免手續費`) — plus direction-specific variants (`本行賣免收,買入每筆100`). Coverage is ~95% of bank rows; anything ambiguous keeps `kind: "unknown"` and the UI shows the verbatim note with a "?" instead of silently assuming a number.
 - **Data** (`data/`): `latest.json` is what the site reads; a daily snapshot lands in `history/` and every change is committed, so the repo doubles as a time-series dataset ([git-scraping](https://simonwillison.net/2020/Oct/9/git-scraping/) pattern).
 - **Site** (`site/`): dependency-free vanilla JS/CSS. Pick currency, direction (buying for a trip / selling leftovers back), channel (cash vs. spot), and amount — percent fees are computed against *your* amount, so the ranking can flip between a NT$50k and a NT$500k exchange. Mobile-first, dark-mode aware.
+- **Promotions overlay** (`data/promos.json`): a manually-curated, dated list of channels that beat the board rate — Bank of Taiwan online exchange (免手續費 + rate rebate, airport pickup), E.SUN online-banking spot rebates, Mega foreign-currency ATM discounts. Because these depend on channel, account, and time-of-day and change often, they are shown as a clearly-labelled reference layer with links to each bank's official page and are **not** folded into the ranking number (that would fake a precision the promos don't have).
 - **CI** (`.github/workflows/update.yml`): fixture-based parser tests run before every scrape as a layout-change tripwire; then scrape → commit data → deploy Pages.
 
 ## Run locally
@@ -49,9 +50,13 @@ python3 -m http.server 8642 --directory _site
 - Fee notes sometimes distinguish customers vs. non-customers; the headline number follows the first quoted price and the raw note is always shown. Staleness uses a calendar-day heuristic (>3 days) and ignores Taiwan public holidays.
 - Data © the respective banks, aggregated via findrate.tw. This is a comparison aid, not financial advice.
 
+## Data validation
+
+Scraped numbers were cross-checked against banks' own official rate pages on the same day (2026-07-20): E.SUN's published JPY and USD cash/spot rates matched our scraped values on all eight data points. The check also caught Bank of Taiwan's board being frozen for ~3 weeks on the aggregator — exactly the staleness the site is built to flag.
+
 ## Roadmap
 
-- [ ] Manually-curated overlay of online-exchange / FX-ATM promos
+- [x] Manually-curated overlay of online-exchange / FX-ATM promos
 - [ ] Trend charts from `data/history/` ("is today a good day to exchange?")
 - [ ] Rate-threshold notifications
 

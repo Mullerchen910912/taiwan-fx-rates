@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-07-20",
+  "note": "各行官方公告之換匯優惠整理。這些優惠涉及不同通路（線上結匯/外幣ATM/網銀即期）、可能需要外幣帳戶或本人到機場領取，且時段與幅度時有異動——因此僅作為『牌告匯率之外的省錢情報』參考，未計入上方排名，實際以各行官方公告為準。",
+  "banks": {
+    "臺灣銀行": [
+      {
+        "channel": "線上結匯（機場／分行取鈔）",
+        "url": "https://fctc.bot.com.tw/",
+        "benefit": "24小時線上下單、免手續費（旅支除外）；匯率折讓約：美元 千分之2、日圓／歐元 千分之1.5，優於臨櫃現鈔。可在桃園／松山／高雄機場分行取鈔。",
+        "currencies": ["USD", "JPY", "EUR", "GBP", "AUD"],
+        "requires_account": false,
+        "expiry": null
+      }
+    ],
+    "玉山銀行": [
+      {
+        "channel": "網路／行動銀行 即期換匯（需外幣帳戶）",
+        "url": "https://www.esunbank.com/zh-tw/personal/deposit/deposit-event/exchange-rate",
+        "benefit": "營業日 09:00–23:00 專案減碼（即期）：美元 3.1分、日圓 0.12分、歐元 1.2角、港幣 2分、人民幣 1.5分…；單筆 50萬元(台幣)以上減碼更多。",
+        "currencies": ["USD", "JPY", "EUR", "HKD", "CNY", "GBP", "AUD"],
+        "requires_account": true,
+        "expiry": "2026-12-31"
+      }
+    ],
+    "兆豐銀行": [
+      {
+        "channel": "外幣ATM／線上結匯（24小時）",
+        "url": "https://www.megabank.com.tw/personal/foreign-service/services/rate-offer",
+        "benefit": "外幣提款機 24 小時提領外幣現鈔享匯率減碼；另有線上結匯可機場取鈔。實際減碼幅度依當日官方公告為準。",
+        "currencies": ["USD", "JPY", "EUR", "HKD", "CNY"],
+        "requires_account": false,
+        "expiry": null
+      }
+    ]
+  }
+}

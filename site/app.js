@@ -15,6 +15,7 @@ const state = {
   amounts: { ...DEFAULT_AMOUNTS },
 };
 let DATA = null;
+let PROMOS = null; // { as_of, note, banks: { <bank>: [ {channel, url, benefit, ...} ] } }
 
 const $ = (sel) => document.querySelector(sel);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({
@@ -24,14 +25,14 @@ const fmtTWD = (n) => "NT$" + Math.round(n).toLocaleString("zh-TW");
 
 /* data/ sits next to index.html on the published site; one level up when
    serving the repo root during local development. */
-async function loadData() {
-  for (const path of ["./data/latest.json", "../data/latest.json"]) {
+async function loadJSON(name) {
+  for (const path of [`./data/${name}`, `../data/${name}`]) {
     try {
       const resp = await fetch(path, { cache: "no-store" });
       if (resp.ok) return await resp.json();
     } catch (_) { /* try next */ }
   }
-  throw new Error("latest.json not reachable");
+  return null;
 }
 
 function feeFor(rule, twdTotal) {
@@ -117,6 +118,38 @@ function render() {
   if (noService) notes.push(`${noService} 家銀行無${state.channel === "cash" ? "現鈔" : "即期"}服務,未列出。`);
   if (shown.some((r) => r.feeUnknown)) notes.push("「?」= 手續費規則無法自動判讀,排名未計入該費用,請看原文備註。");
   $("#table-note").textContent = notes.join(" ");
+
+  renderPromos();
+}
+
+function bankHasPromo(bank) {
+  return !!(PROMOS && PROMOS.banks && PROMOS.banks[bank]);
+}
+
+function renderPromos() {
+  const card = $("#promos-card");
+  if (!PROMOS || !PROMOS.banks || !Object.keys(PROMOS.banks).length) {
+    card.hidden = true;
+    return;
+  }
+  card.hidden = false;
+  $("#promos-intro").textContent =
+    "上方排名是各行的官方牌告匯率。以下幾家另有更划算的換匯通路(線上結匯、外幣ATM、網銀即期)——這些優惠依通路/帳戶/時段而定、且會變動,所以列在這裡當參考,沒有折進上方排名。";
+  $("#promos-list").innerHTML = Object.entries(PROMOS.banks).map(([bank, offers]) =>
+    offers.map((o) => `
+      <div class="promo">
+        <div class="promo-head">
+          <span class="promo-bank">${esc(bank)}</span>
+          <span class="promo-channel">${esc(o.channel)}</span>
+          ${o.requires_account ? `<span class="badge">需外幣帳戶</span>` : ""}
+          ${o.expiry ? `<span class="promo-expiry">至 ${esc(o.expiry)}</span>` : ""}
+        </div>
+        <p class="promo-benefit">${esc(o.benefit)}</p>
+        <a class="promo-link" href="${esc(o.url)}" target="_blank" rel="noopener">官方頁面 →</a>
+      </div>`).join("")
+  ).join("");
+  $("#promos-note").textContent =
+    `${PROMOS.note || ""} 資料整理於 ${PROMOS.as_of || "?"}。`;
 }
 
 function renderBest(fresh, amount, buying) {
@@ -162,6 +195,7 @@ function renderTable(shown, fresh, buying) {
         ${r.bank.bank_url ? `<a class="bank-link" href="${esc(r.bank.bank_url)}" target="_blank" rel="noopener">${esc(r.bank.bank)}</a>` : esc(r.bank.bank)}
         ${r.stale ? `<span class="badge" title="牌價更新日 ${esc(upDate)}">舊 ${esc(upDate ? upDate.slice(5) : "?")}</span>` : ""}
         ${isBest ? `<span class="badge badge-accent">最划算</span>` : ""}
+        ${bankHasPromo(r.bank.bank) ? `<span class="badge badge-promo" title="此行另有換匯優惠,見下方情報">💡優惠</span>` : ""}
       </td>
       <td class="num">${r.rate}</td>
       <td class="num col-fee">${feeMain}${feeSub ? `<span class="fee-note" title="${esc(r.bank.fee.raw)}">${esc(feeSub)}</span>` : ""}</td>
@@ -212,12 +246,12 @@ function bindSegmented(id, key) {
 }
 
 async function init() {
-  try {
-    DATA = await loadData();
-  } catch (err) {
+  DATA = await loadJSON("latest.json");
+  if (!DATA) {
     $("#freshness").textContent = "資料載入失敗——請透過網站或本機 HTTP server 開啟(不能直接開檔案)。";
     return;
   }
+  PROMOS = await loadJSON("promos.json"); // optional; site works without it
   state.code = Object.keys(DATA.currencies)[0];
   buildCurrencyChips();
   bindSegmented("#direction-seg", "direction");

@@ -6,4 +6,5 @@ rm -rf _site
 mkdir -p _site/data
 cp -r site/. _site/
 cp data/latest.json _site/data/
+[ -f data/promos.json ] && cp data/promos.json _site/data/  # optional curated overlay
 echo "_site ready: $(du -sh _site | cut -f1)"
