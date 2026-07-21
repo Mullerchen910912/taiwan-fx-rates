@@ -44,7 +44,10 @@
       </div>
       <div class="control-group">
         <label class="control-label" for="amount">金額 <span id="amount-unit"></span></label>
-        <input type="number" id="amount" min="0" step="any" inputmode="decimal">
+        <div class="amount-row">
+          <input type="number" id="amount" min="0" step="any" inputmode="decimal">
+          <span class="amount-formatted" id="amount-formatted"></span>
+        </div>
       </div>
     </div>
     <p class="channel-hint" id="channel-hint"></p>
@@ -86,8 +89,9 @@
 <footer class="page-foot">
   <p>資料來源:<a id="source-link" href="https://www.findrate.tw/" target="_blank" rel="noopener">比率網 findrate.tw</a>(各銀行牌告匯率)。
   牌告匯率與手續費僅供參考,<strong>線上結匯、外幣 ATM 常有額外減碼優惠</strong>,實際成交以各銀行為準。本站非投資建議。</p>
-  <p>「更新」欄取自各銀行牌價的實際更新日期——超過 3 天未更新的銀行預設排除,避免被過期牌價誤導。</p>
-  <p><a href="https://github.com/Mullerchen910912/taiwan-fx-rates" target="_blank" rel="noopener">GitHub</a> · 每個銀行營業日自動更新 4 次</p>
+  <p>「更新」欄取自各銀行牌價的實際更新日期——超過 3 天未更新的銀行預設排除,避免被過期牌價誤導。上方「資料時間」則是本站抓取這批牌價的時間,不代表銀行當下剛更新,請以各家「更新」欄為準。</p>
+  <p>本站比較的是臨櫃/網銀的「換匯」牌告;若是要「電匯匯款到國外」(如繳學費、留學匯款),銀行另計電匯手續費與國外中間行費用,本站未計入,請洽各行電匯窗口。</p>
+  <p><a href="https://github.com/Mullerchen910912/taiwan-fx-rates" target="_blank" rel="noopener">GitHub</a> · 每天 09–21 點每 2 小時自動更新</p>
 </footer>
 
 <script src="app.js"></script>

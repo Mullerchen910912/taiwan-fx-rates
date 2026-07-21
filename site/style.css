@@ -134,6 +134,8 @@ a { color: var(--accent); }
   color: var(--text);
 }
 #amount:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.amount-row { display: inline-flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.amount-formatted { font-size: 0.82rem; color: var(--muted); white-space: nowrap; }
 .channel-hint { margin: 10px 0 0; font-size: 0.82rem; color: var(--muted); }
 
 /* ---- best card ---- */
@@ -141,6 +143,7 @@ a { color: var(--accent); }
 .best .best-label { font-size: 0.8rem; font-weight: 700; color: var(--accent); letter-spacing: 0.05em; }
 .best .best-main { font-size: 1.25rem; font-weight: 800; margin: 2px 0; }
 .best .best-sub { font-size: 0.86rem; color: var(--muted); margin: 0; }
+.best .best-warn { font-size: 0.82rem; color: var(--warn); font-weight: 600; margin: 8px 0 0; }
 
 /* ---- table ---- */
 .table-card { padding: 16px 0 8px; }
@@ -169,6 +172,10 @@ td .bank-link:hover { text-decoration: underline; color: var(--accent); }
 .diff.zero, .diff.good { color: var(--accent); font-weight: 700; }
 .bar { height: 4px; border-radius: 2px; background: var(--bar); margin-top: 4px; }
 tr.best-row .bar { background: var(--accent); }
+
+/* Fee-unconfirmed ("?") rows: the fee mark and the total both need to read
+   as "uncertain, could be higher" rather than "free"/"cheapest". */
+.cost-unsure { color: var(--warn); font-weight: 700; cursor: help; }
 
 .fee-note, .updated-date { display: block; font-size: 0.72rem; color: var(--muted); white-space: nowrap; }
 .badge {
@@ -214,7 +221,54 @@ td.updated.stale { color: var(--warn); }
   th, td { padding: 7px 6px; }
   th:first-child, td:first-child { padding-left: 10px; }
   th:last-child, td:last-child { padding-right: 10px; }
-  .col-updated, td.updated { display: none; }
   table { font-size: 0.88rem; }
   #amount { width: 130px; }
+
+  /* Card-style rows so bank name + total cost are always visible together
+     without horizontal scrolling. Header is dropped in favour of small
+     inline labels (::before, from each td's data-label) on the secondary
+     line, since a table <thead> doesn't make sense once rows are cards. */
+  #rate-table thead { display: none; }
+  #rate-table, #rate-table tbody { display: block; width: 100%; }
+  #rate-table tbody tr {
+    display: grid;
+    grid-template-columns: 1.6em 1fr auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 8px;
+    row-gap: 3px;
+    align-items: baseline;
+    padding: 11px 10px;
+    border-top: 1px solid var(--border);
+  }
+  #rate-table tbody tr:first-child { border-top: none; }
+  #rate-table td {
+    display: block;
+    padding: 0;
+    border-top: none;
+    white-space: normal;
+  }
+  /* row 1: rank, bank name, total — the pair that must share a frame */
+  #rate-table td.col-rank { grid-column: 1; grid-row: 1; width: auto; align-self: start; font-size: 0.78rem; }
+  #rate-table td:nth-child(2) { grid-column: 2; grid-row: 1; text-align: left; font-size: 0.98rem; font-weight: 700; }
+  #rate-table td.total-cell { grid-column: 3; grid-row: 1; text-align: right; }
+  #rate-table td.total-cell .total-num { font-size: 1.05rem; } /* ~16.8px: stays >=16px */
+  #rate-table td.total-cell .bar { display: none; } /* decorative; column width is now per-card, not comparable */
+  /* row 2: rate + fee, smaller, secondary */
+  #rate-table td:nth-child(3) { grid-column: 1 / span 2; grid-row: 2; text-align: left; font-size: 0.82rem; color: var(--muted); }
+  #rate-table td.col-fee { grid-column: 3; grid-row: 2; text-align: right; font-size: 0.82rem; }
+  #rate-table td[data-label]::before {
+    content: attr(data-label) "：";
+    color: var(--muted);
+    font-weight: 500;
+  }
+  /* row 3: update time, full-width, right-aligned, muted (kept, not clipped) */
+  #rate-table td.updated {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    text-align: right;
+    font-size: 0.72rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  #rate-table td.updated::before { content: "更新："; }
 }
