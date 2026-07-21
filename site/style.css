@@ -196,6 +196,22 @@ td.updated.stale { color: var(--warn); }
 
 .table-note { margin: 10px 16px 8px; font-size: 0.8rem; color: var(--muted); }
 
+/* ---- precious metals ---- */
+.metals-title { margin: 0 0 12px; font-size: 1.05rem; }
+.metals-sub { font-size: 0.8rem; font-weight: 400; color: var(--muted); }
+.metals-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; }
+.metal {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: var(--accent-soft);
+}
+.metal-name { font-size: 0.85rem; font-weight: 700; color: var(--muted); }
+.metal-twd { font-size: 1.15rem; font-weight: 800; margin: 3px 0 1px; font-variant-numeric: tabular-nums; }
+.metal-unit { font-size: 0.72rem; font-weight: 400; color: var(--muted); }
+.metal-usd { font-size: 0.78rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.metals-note { margin: 12px 0 0; font-size: 0.76rem; color: var(--muted); line-height: 1.55; }
+
 /* ---- promotions ---- */
 .promos-title { margin: 0 0 4px; font-size: 1.05rem; }
 .promos-sub { font-size: 0.8rem; font-weight: 400; color: var(--muted); }

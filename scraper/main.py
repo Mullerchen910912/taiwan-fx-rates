@@ -13,6 +13,7 @@ from zoneinfo import ZoneInfo
 
 from .fees import parse_fee
 from .fetch import fetch_currency_page
+from .metals import fetch_metals
 from .parse import parse_currency_page
 
 TAIPEI = ZoneInfo("Asia/Taipei")
@@ -35,6 +36,28 @@ CURRENCIES = {
 PAUSE_BETWEEN_REQUESTS = 1.5  # seconds
 
 
+def usd_twd_reference(currencies: dict) -> float | None:
+    """A representative USD→TWD rate for converting metal prices.
+
+    Median of fresh-enough banks' USD spot mid-price; falls back to cash mid
+    if no spot quotes exist. Returns None if USD wasn't scraped at all.
+    """
+    usd = currencies.get("USD")
+    if not usd:
+        return None
+    for buy_key, sell_key in (("spot_buy", "spot_sell"), ("cash_buy", "cash_sell")):
+        mids = [
+            (b[buy_key] + b[sell_key]) / 2
+            for b in usd["banks"]
+            if b.get(buy_key) is not None and b.get(sell_key) is not None
+        ]
+        if mids:
+            mids.sort()
+            n = len(mids)
+            return mids[n // 2] if n % 2 else (mids[n // 2 - 1] + mids[n // 2]) / 2
+    return None
+
+
 def build_snapshot() -> dict:
     currencies: dict = {}
     errors: dict = {}
@@ -52,10 +75,27 @@ def build_snapshot() -> dict:
             errors[code] = f"{type(err).__name__}: {err}"
             print(f"[warn] {code} failed: {errors[code]}", file=sys.stderr)
 
+    usd_twd = usd_twd_reference(currencies)
+    metals: dict = {}
+    try:
+        result = fetch_metals(usd_twd)
+        metals = {
+            "usd_twd_ref": round(usd_twd, 3) if usd_twd else None,
+            "source": {"name": "gold-api.com（國際盤即時價）", "url": "https://www.gold-api.com/"},
+            "items": result["items"],
+        }
+        if result["errors"]:
+            errors["metals"] = result["errors"]
+        print(f"[ok] metals: {len(result['items'])} items (USD≈{usd_twd})")
+    except Exception as err:  # metals must never break the currency snapshot
+        errors["metals"] = f"{type(err).__name__}: {err}"
+        print(f"[warn] metals failed: {errors['metals']}", file=sys.stderr)
+
     return {
         "generated_at": datetime.now(TAIPEI).isoformat(timespec="seconds"),
         "source": {"name": "比率網 findrate.tw", "url": "https://www.findrate.tw/"},
         "currencies": currencies,
+        "metals": metals,
         "errors": errors,
     }
 

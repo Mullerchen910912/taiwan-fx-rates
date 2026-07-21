@@ -296,6 +296,28 @@ function renderTable(shown, buying, bestInfo, totalRowCount) {
   }).join("");
 }
 
+// Precious-metals reference panel. Rendered once (independent of currency /
+// direction). International spot price + an approximate NT$/gram conversion —
+// explicitly NOT a bank gold-passbook (黃金存摺) quote.
+function renderMetals() {
+  const card = $("#metals-card");
+  const metals = DATA.metals;
+  if (!metals || !metals.items || !metals.items.length) { card.hidden = true; return; }
+  card.hidden = false;
+  $("#metals-grid").innerHTML = metals.items.map((m) => `
+    <div class="metal">
+      <div class="metal-name">${esc(m.name)}</div>
+      <div class="metal-twd">${m.twd_per_gram != null ? "≈ NT$" + m.twd_per_gram.toLocaleString("zh-TW") : "—"}<span class="metal-unit"> /公克</span></div>
+      <div class="metal-usd">$${m.usd_per_oz.toLocaleString("en-US")} / oz</div>
+    </div>`).join("");
+  const ref = metals.usd_twd_ref;
+  $("#metals-note").innerHTML =
+    `國際盤即時價,以 USD≈${ref ?? "?"} 換算約當台幣/公克(1 金衡盎司 = 31.1035 克)。` +
+    `這是<strong>國際參考價,非銀行黃金存摺牌價</strong>——實際買賣有價差,黃金存摺請洽 ` +
+    `<a href="https://rate.bot.com.tw/gold/passbook" target="_blank" rel="noopener">臺灣銀行黃金存摺 →</a>。` +
+    `資料來源:<a href="${esc(metals.source?.url || "#")}" target="_blank" rel="noopener">${esc(metals.source?.name || "")}</a>`;
+}
+
 function renderFreshness() {
   const gen = new Date(DATA.generated_at);
   const hours = Math.max(0, Math.round((Date.now() - gen.getTime()) / 3600000));
@@ -328,6 +350,7 @@ async function refreshNow() {
     $("#amount").value = state.amounts[state.code] ?? "";
     updateAmountFormatted();
     renderFreshness();
+    renderMetals();
     render();
     const changed = DATA.generated_at !== prevGenerated;
     flash.textContent = changed
@@ -377,12 +400,14 @@ function bindSegmented(id, key) {
 }
 
 async function init() {
-  DATA = await loadJSON("latest.json");
+  // Cache-bust so a returning visitor (or CDN edge) never renders a stale
+  // snapshot — the data changes every couple of hours.
+  DATA = await loadJSON("latest.json", true);
   if (!DATA) {
     $("#freshness").textContent = "資料載入失敗——請透過網站或本機 HTTP server 開啟(不能直接開檔案)。";
     return;
   }
-  PROMOS = await loadJSON("promos.json"); // optional; site works without it
+  PROMOS = await loadJSON("promos.json", true); // optional; site works without it
   state.code = Object.keys(DATA.currencies)[0];
   buildCurrencyChips();
   bindSegmented("#direction-seg", "direction");
@@ -398,6 +423,7 @@ async function init() {
   $("#show-stale").addEventListener("change", (e) => { state.showStale = e.target.checked; render(); });
   $("#refresh-btn").addEventListener("click", refreshNow);
   renderFreshness();
+  renderMetals();
   render();
 }
 
