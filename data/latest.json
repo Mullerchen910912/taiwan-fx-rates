@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T21:52:47+08:00",
+ "generated_at": "2026-10-30T14:41:35+08:00",
  "source": {
   "name": "比率網 findrate.tw",
   "url": "https://www.findrate.tw/"
@@ -61,13 +61,39 @@
      }
     },
     {
+     "bank": "彰化銀行",
+     "bank_url": "https://www.findrate.tw/bank/16/",
+     "cash_buy": 0.2027,
+     "cash_sell": 0.2107,
+     "spot_buy": 0.2052,
+     "spot_sell": 0.2092,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "結購外幣現鈔免收",
+      "notes": "僅結購(買外幣)方向明示免收",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 0.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
      "bank": "渣打銀行",
      "bank_url": "https://www.findrate.tw/bank/23/",
-     "cash_buy": 0.2024,
-     "cash_sell": 0.2096,
-     "spot_buy": 0.2039,
-     "spot_sell": 0.2081,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 0.2036,
+     "cash_sell": 0.2108,
+     "spot_buy": 0.2051,
+     "spot_sell": 0.2093,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$500",
       "notes": "",
@@ -87,16 +113,68 @@
      }
     },
     {
-     "bank": "第一銀行",
-     "bank_url": "https://www.findrate.tw/bank/26/",
-     "cash_buy": 0.2024,
-     "cash_sell": 0.2098,
-     "spot_buy": 0.2041,
-     "spot_sell": 0.2081,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "遠東商銀",
+     "bank_url": "https://www.findrate.tw/bank/34/",
+     "cash_buy": 0.2032,
+     "cash_sell": 0.2112,
+     "spot_buy": 0.2064,
+     "spot_sell": 0.208,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "每筆NT$100,非本行每筆$200",
-      "notes": "非本行每筆200",
+      "raw": "總額1%,最低100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "匯豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/6/",
+     "cash_buy": 0.20145,
+     "cash_sell": 0.21292,
+     "spot_buy": 0.20545,
+     "spot_sell": 0.20892,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "台幣總額之0.5%",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.005,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.005,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "元大銀行",
+     "bank_url": "https://www.findrate.tw/bank/4/",
+     "cash_buy": 0.2014,
+     "cash_sell": 0.211,
+     "spot_buy": 0.2056,
+     "spot_sell": 0.2088,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
@@ -117,9 +195,9 @@
      "bank_url": "https://www.findrate.tw/bank/22/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 0.2045,
-     "spot_sell": 0.2085,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 0.2053,
+     "spot_sell": 0.2093,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -139,247 +217,13 @@
      }
     },
     {
-     "bank": "彰化銀行",
-     "bank_url": "https://www.findrate.tw/bank/16/",
-     "cash_buy": 0.2016,
-     "cash_sell": 0.2096,
-     "spot_buy": 0.2041,
-     "spot_sell": 0.2081,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "結購外幣現鈔免收",
-      "notes": "僅結購(買外幣)方向明示免收",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 0.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "匯豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/6/",
-     "cash_buy": 0.20042,
-     "cash_sell": 0.21188,
-     "spot_buy": 0.20442,
-     "spot_sell": 0.20788,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "台幣總額之0.5%",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.005,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.005,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "富邦銀行",
-     "bank_url": "https://www.findrate.tw/bank/8/",
-     "cash_buy": 0.201,
-     "cash_sell": 0.2114,
-     "spot_buy": 0.2037,
-     "spot_sell": 0.2087,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額0.135%,最低NT$100（J卡8折優惠）",
-      "notes": "J卡8折優惠",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.00135,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.00135,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "陽信銀行",
-     "bank_url": "https://www.findrate.tw/bank/36/",
-     "cash_buy": 0.1985,
-     "cash_sell": 0.2095,
-     "spot_buy": 0.204,
-     "spot_sell": 0.208,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "國泰世華",
-     "bank_url": "https://www.findrate.tw/bank/11/",
-     "cash_buy": 0.1996,
-     "cash_sell": 0.2106,
-     "spot_buy": 0.2036,
-     "spot_sell": 0.2086,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$200",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 200.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 200.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "遠東商銀",
-     "bank_url": "https://www.findrate.tw/bank/34/",
-     "cash_buy": 0.2019,
-     "cash_sell": 0.2099,
-     "spot_buy": 0.2051,
-     "spot_sell": 0.2067,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額1%,最低100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "聯邦銀行",
-     "bank_url": "https://www.findrate.tw/bank/27/",
-     "cash_buy": 0.2022,
-     "cash_sell": 0.2102,
-     "spot_buy": 0.2037,
-     "spot_sell": 0.2087,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "台幣總額0.7%,最低NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.006999999999999999,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.006999999999999999,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "元大銀行",
-     "bank_url": "https://www.findrate.tw/bank/4/",
-     "cash_buy": 0.2001,
-     "cash_sell": 0.2097,
-     "spot_buy": 0.2043,
-     "spot_sell": 0.2075,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "三信商銀",
-     "bank_url": "https://www.findrate.tw/bank/0/",
-     "cash_buy": 0.1969,
-     "cash_sell": 0.2115,
-     "spot_buy": 0.2039,
-     "spot_sell": 0.2085,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
      "bank": "凱基銀行",
      "bank_url": "https://www.findrate.tw/bank/33/",
-     "cash_buy": 0.2027,
-     "cash_sell": 0.2097,
-     "spot_buy": 0.2042,
-     "spot_sell": 0.2082,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 0.2038,
+     "cash_sell": 0.2108,
+     "spot_buy": 0.2053,
+     "spot_sell": 0.2093,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "台幣總額之1%",
       "notes": "",
@@ -399,13 +243,143 @@
      }
     },
     {
+     "bank": "陽信銀行",
+     "bank_url": "https://www.findrate.tw/bank/36/",
+     "cash_buy": 0.1999,
+     "cash_sell": 0.2109,
+     "spot_buy": 0.2054,
+     "spot_sell": 0.2094,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "富邦銀行",
+     "bank_url": "https://www.findrate.tw/bank/8/",
+     "cash_buy": 0.2028,
+     "cash_sell": 0.2118,
+     "spot_buy": 0.2055,
+     "spot_sell": 0.2091,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "總額0.135%,最低NT$100（J卡8折優惠）",
+      "notes": "J卡8折優惠",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.00135,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.00135,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "聯邦銀行",
+     "bank_url": "https://www.findrate.tw/bank/27/",
+     "cash_buy": 0.2032,
+     "cash_sell": 0.2112,
+     "spot_buy": 0.2052,
+     "spot_sell": 0.2092,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "台幣總額0.7%,最低NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.006999999999999999,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.006999999999999999,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "星展銀行",
+     "bank_url": "https://www.findrate.tw/bank/19/",
+     "cash_buy": 0.204,
+     "cash_sell": 0.2104,
+     "spot_buy": 0.2054,
+     "spot_sell": 0.209,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "總額1%,最低NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "第一銀行",
+     "bank_url": "https://www.findrate.tw/bank/26/",
+     "cash_buy": 0.2035,
+     "cash_sell": 0.2109,
+     "spot_buy": 0.2052,
+     "spot_sell": 0.2092,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100,非本行每筆$200",
+      "notes": "非本行每筆200",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
      "bank": "板信銀行",
      "bank_url": "https://www.findrate.tw/bank/20/",
-     "cash_buy": 0.1971,
-     "cash_sell": 0.21,
-     "spot_buy": 0.2041,
-     "spot_sell": 0.2081,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 0.1982,
+     "cash_sell": 0.2111,
+     "spot_buy": 0.2052,
+     "spot_sell": 0.2092,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "台幣總額0.5%,最低NT$100",
       "notes": "",
@@ -425,13 +399,39 @@
      }
     },
     {
-     "bank": "土地銀行",
-     "bank_url": "https://www.findrate.tw/bank/12/",
-     "cash_buy": 0.1986,
-     "cash_sell": 0.2103,
-     "spot_buy": 0.2035,
-     "spot_sell": 0.2086,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "國泰世華",
+     "bank_url": "https://www.findrate.tw/bank/11/",
+     "cash_buy": 0.2013,
+     "cash_sell": 0.2113,
+     "spot_buy": 0.2053,
+     "spot_sell": 0.2093,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$200",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 200.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 200.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "郵局",
+     "bank_url": "https://www.findrate.tw/bank/35/",
+     "cash_buy": 0.1976,
+     "cash_sell": 0.2113,
+     "spot_buy": null,
+     "spot_sell": null,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -451,13 +451,13 @@
      }
     },
     {
-     "bank": "兆豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/5/",
-     "cash_buy": 0.1971,
-     "cash_sell": 0.2098,
-     "spot_buy": 0.2043,
-     "spot_sell": 0.2084,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "土地銀行",
+     "bank_url": "https://www.findrate.tw/bank/12/",
+     "cash_buy": 0.1996,
+     "cash_sell": 0.2113,
+     "spot_buy": 0.2052,
+     "spot_sell": 0.2092,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -481,9 +481,9 @@
      "bank_url": "https://www.findrate.tw/bank/41/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 0.2049,
-     "spot_sell": 0.207,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 0.2059,
+     "spot_sell": 0.208,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -503,78 +503,26 @@
      }
     },
     {
-     "bank": "永豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/21/",
-     "cash_buy": 0.2016,
-     "cash_sell": 0.2098,
-     "spot_buy": 0.2046,
-     "spot_sell": 0.2083,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "兆豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/5/",
+     "cash_buy": 0.1981,
+     "cash_sell": 0.2108,
+     "spot_buy": 0.2053,
+     "spot_sell": 0.2094,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "每筆NT$100",
+      "raw": "免手續費",
       "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
-       "flat_twd": 100.0,
+       "flat_twd": 0.0,
        "pct": null,
        "min_twd": null
       },
       "buy": {
        "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "星展銀行",
-     "bank_url": "https://www.findrate.tw/bank/19/",
-     "cash_buy": 0.2025,
-     "cash_sell": 0.2097,
-     "spot_buy": 0.2039,
-     "spot_sell": 0.2083,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額1%,最低NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "台新銀行",
-     "bank_url": "https://www.findrate.tw/bank/9/",
-     "cash_buy": 0.2022,
-     "cash_sell": 0.2102,
-     "spot_buy": 0.2042,
-     "spot_sell": 0.2077,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "有賬戶免手續費",
-      "notes": "",
-      "parsed": false,
-      "sell": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "unknown",
-       "flat_twd": null,
+       "flat_twd": 0.0,
        "pct": null,
        "min_twd": null
       }
@@ -583,11 +531,37 @@
     {
      "bank": "瑞興銀行",
      "bank_url": "https://www.findrate.tw/bank/38/",
-     "cash_buy": 0.2017,
-     "cash_sell": 0.2107,
-     "spot_buy": 0.2037,
-     "spot_sell": 0.2087,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 0.2028,
+     "cash_sell": 0.2118,
+     "spot_buy": 0.2048,
+     "spot_sell": 0.2098,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "三信商銀",
+     "bank_url": "https://www.findrate.tw/bank/0/",
+     "cash_buy": 0.1981,
+     "cash_sell": 0.2123,
+     "spot_buy": 0.2051,
+     "spot_sell": 0.2093,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -609,66 +583,14 @@
     {
      "bank": "高雄銀行",
      "bank_url": "https://www.findrate.tw/bank/37/",
-     "cash_buy": 0.2025,
-     "cash_sell": 0.2095,
-     "spot_buy": 0.204,
-     "spot_sell": 0.208,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "華南銀行",
-     "bank_url": "https://www.findrate.tw/bank/31/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 0.204,
-     "spot_sell": 0.2081,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "合作金庫",
-     "bank_url": "https://www.findrate.tw/bank/10/",
-     "cash_buy": 0.1962,
+     "cash_buy": 0.2038,
      "cash_sell": 0.2108,
-     "spot_buy": 0.2033,
+     "spot_buy": 0.2053,
      "spot_sell": 0.2093,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "每筆NT$100,有開戶免收",
-      "notes": "有開戶免收",
+      "raw": "每筆NT$100",
+      "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
@@ -685,13 +607,13 @@
      }
     },
     {
-     "bank": "台中銀行",
-     "bank_url": "https://www.findrate.tw/bank/7/",
-     "cash_buy": 0.2001,
-     "cash_sell": 0.2101,
-     "spot_buy": 0.204,
-     "spot_sell": 0.208,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "永豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/21/",
+     "cash_buy": 0.2023,
+     "cash_sell": 0.2106,
+     "spot_buy": 0.2053,
+     "spot_sell": 0.2091,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -713,11 +635,11 @@
     {
      "bank": "新光銀行",
      "bank_url": "https://www.findrate.tw/bank/17/",
-     "cash_buy": 0.1991,
-     "cash_sell": 0.2097,
-     "spot_buy": 0.2041,
-     "spot_sell": 0.2081,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 0.2002,
+     "cash_sell": 0.2108,
+     "spot_buy": 0.2052,
+     "spot_sell": 0.2092,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -737,26 +659,78 @@
      }
     },
     {
-     "bank": "郵局",
-     "bank_url": "https://www.findrate.tw/bank/35/",
-     "cash_buy": 0.1965,
-     "cash_sell": 0.2102,
-     "spot_buy": null,
-     "spot_sell": null,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "台新銀行",
+     "bank_url": "https://www.findrate.tw/bank/9/",
+     "cash_buy": 0.2032,
+     "cash_sell": 0.2112,
+     "spot_buy": 0.2052,
+     "spot_sell": 0.2087,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "免手續費",
+      "raw": "有賬戶免手續費",
+      "notes": "",
+      "parsed": false,
+      "sell": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "華南銀行",
+     "bank_url": "https://www.findrate.tw/bank/31/",
+     "cash_buy": 0.2018,
+     "cash_sell": 0.2108,
+     "spot_buy": 0.2052,
+     "spot_sell": 0.2093,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
       "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
-       "flat_twd": 0.0,
+       "flat_twd": 100.0,
        "pct": null,
        "min_twd": null
       },
       "buy": {
        "kind": "flat",
-       "flat_twd": 0.0,
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "台中銀行",
+     "bank_url": "https://www.findrate.tw/bank/7/",
+     "cash_buy": 0.2012,
+     "cash_sell": 0.2112,
+     "spot_buy": 0.2052,
+     "spot_sell": 0.2092,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
        "pct": null,
        "min_twd": null
       }
@@ -769,7 +743,7 @@
      "cash_sell": 0.2101,
      "spot_buy": 0.2041,
      "spot_sell": 0.2081,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額0.7%,最低NT$100",
       "notes": "",
@@ -791,11 +765,11 @@
     {
      "bank": "玉山銀行",
      "bank_url": "https://www.findrate.tw/bank/25/",
-     "cash_buy": 0.2034,
-     "cash_sell": 0.2104,
-     "spot_buy": 0.2044,
-     "spot_sell": 0.2084,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 0.2043,
+     "cash_sell": 0.2113,
+     "spot_buy": 0.2053,
+     "spot_sell": 0.2093,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100 ATM免收",
       "notes": "ATM免收",
@@ -815,39 +789,13 @@
      }
     },
     {
-     "bank": "王道銀行",
-     "bank_url": "https://www.findrate.tw/bank/39/",
-     "cash_buy": 0.202,
-     "cash_sell": 0.21,
-     "spot_buy": 0.2042,
-     "spot_sell": 0.2082,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "最低NT$100",
-      "notes": "",
-      "parsed": false,
-      "sell": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
      "bank": "安泰銀行",
      "bank_url": "https://www.findrate.tw/bank/15/",
-     "cash_buy": 0.1969,
-     "cash_sell": 0.2095,
-     "spot_buy": 0.204,
-     "spot_sell": 0.208,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 0.1982,
+     "cash_sell": 0.2108,
+     "spot_buy": 0.2053,
+     "spot_sell": 0.2093,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "非本行每筆NT100",
       "notes": "非本行客戶費率;本行客戶請洽銀行",
@@ -867,13 +815,65 @@
      }
     },
     {
+     "bank": "合作金庫",
+     "bank_url": "https://www.findrate.tw/bank/10/",
+     "cash_buy": 0.1983,
+     "cash_sell": 0.2109,
+     "spot_buy": 0.2054,
+     "spot_sell": 0.2094,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100,有開戶免收",
+      "notes": "有開戶免收",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "王道銀行",
+     "bank_url": "https://www.findrate.tw/bank/39/",
+     "cash_buy": 0.2032,
+     "cash_sell": 0.2112,
+     "spot_buy": 0.2061,
+     "spot_sell": 0.2083,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "最低NT$100",
+      "notes": "",
+      "parsed": false,
+      "sell": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
      "bank": "華泰銀行",
      "bank_url": "https://www.findrate.tw/bank/32/",
-     "cash_buy": 0.1985,
-     "cash_sell": 0.2095,
-     "spot_buy": 0.2045,
-     "spot_sell": 0.2085,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 0.1993,
+     "cash_sell": 0.2103,
+     "spot_buy": 0.2053,
+     "spot_sell": 0.2093,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -895,11 +895,11 @@
     {
      "bank": "京城銀行",
      "bank_url": "https://www.findrate.tw/bank/3/",
-     "cash_buy": 0.2018,
-     "cash_sell": 0.2109,
-     "spot_buy": 0.2041,
-     "spot_sell": 0.2081,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 0.2029,
+     "cash_sell": 0.212,
+     "spot_buy": 0.2052,
+     "spot_sell": 0.2092,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額0.6%",
       "notes": "",
@@ -976,91 +976,13 @@
      }
     },
     {
-     "bank": "渣打銀行",
-     "bank_url": "https://www.findrate.tw/bank/23/",
-     "cash_buy": 32.259,
-     "cash_sell": 32.767,
-     "spot_buy": 32.459,
-     "spot_sell": 32.567,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$500",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 500.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 500.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "第一銀行",
-     "bank_url": "https://www.findrate.tw/bank/26/",
-     "cash_buy": 32.263,
-     "cash_sell": 32.778,
-     "spot_buy": 32.47,
-     "spot_sell": 32.57,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100,非本行每筆$200",
-      "notes": "非本行每筆200",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "盤谷銀行",
-     "bank_url": "https://www.findrate.tw/bank/22/",
-     "cash_buy": 32.15,
-     "cash_sell": 32.85,
-     "spot_buy": 32.54,
-     "spot_sell": 32.66,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "免手續費",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 0.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 0.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
      "bank": "彰化銀行",
      "bank_url": "https://www.findrate.tw/bank/16/",
-     "cash_buy": 32.235,
-     "cash_sell": 32.805,
-     "spot_buy": 32.485,
-     "spot_sell": 32.585,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 32.35,
+     "cash_sell": 32.92,
+     "spot_buy": 32.6,
+     "spot_sell": 32.7,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "結購外幣現鈔免收",
       "notes": "僅結購(買外幣)方向明示免收",
@@ -1080,104 +1002,26 @@
      }
     },
     {
-     "bank": "匯豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/6/",
-     "cash_buy": 32.23501,
-     "cash_sell": 32.83501,
-     "spot_buy": 32.48501,
-     "spot_sell": 32.58501,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "渣打銀行",
+     "bank_url": "https://www.findrate.tw/bank/23/",
+     "cash_buy": 32.399,
+     "cash_sell": 32.907,
+     "spot_buy": 32.599,
+     "spot_sell": 32.707,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "台幣總額之0.5%",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.005,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.005,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "富邦銀行",
-     "bank_url": "https://www.findrate.tw/bank/8/",
-     "cash_buy": 32.1845,
-     "cash_sell": 32.8265,
-     "spot_buy": 32.4465,
-     "spot_sell": 32.6065,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額0.135%,最低NT$100（J卡8折優惠）",
-      "notes": "J卡8折優惠",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.00135,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.00135,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "陽信銀行",
-     "bank_url": "https://www.findrate.tw/bank/36/",
-     "cash_buy": 32.205,
-     "cash_sell": 32.775,
-     "spot_buy": 32.455,
-     "spot_sell": 32.555,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
+      "raw": "每筆NT$500",
       "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
-       "flat_twd": 100.0,
+       "flat_twd": 500.0,
        "pct": null,
        "min_twd": null
       },
       "buy": {
        "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "國泰世華",
-     "bank_url": "https://www.findrate.tw/bank/11/",
-     "cash_buy": 32.13,
-     "cash_sell": 32.83,
-     "spot_buy": 32.41,
-     "spot_sell": 32.61,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$200",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 200.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 200.0,
+       "flat_twd": 500.0,
        "pct": null,
        "min_twd": null
       }
@@ -1186,11 +1030,11 @@
     {
      "bank": "遠東商銀",
      "bank_url": "https://www.findrate.tw/bank/34/",
-     "cash_buy": 32.192,
-     "cash_sell": 32.692,
-     "spot_buy": 32.442,
-     "spot_sell": 32.542,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 32.363,
+     "cash_sell": 32.863,
+     "spot_buy": 32.613,
+     "spot_sell": 32.713,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額1%,最低100",
       "notes": "",
@@ -1210,39 +1054,39 @@
      }
     },
     {
-     "bank": "聯邦銀行",
-     "bank_url": "https://www.findrate.tw/bank/27/",
-     "cash_buy": 32.3,
-     "cash_sell": 32.76,
-     "spot_buy": 32.44,
-     "spot_sell": 32.62,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "匯豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/6/",
+     "cash_buy": 32.351,
+     "cash_sell": 32.951,
+     "spot_buy": 32.601,
+     "spot_sell": 32.701,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "台幣總額0.7%,最低NT$100",
+      "raw": "台幣總額之0.5%",
       "notes": "",
       "parsed": true,
       "sell": {
        "kind": "percent",
        "flat_twd": null,
-       "pct": 0.006999999999999999,
-       "min_twd": 100.0
+       "pct": 0.005,
+       "min_twd": null
       },
       "buy": {
        "kind": "percent",
        "flat_twd": null,
-       "pct": 0.006999999999999999,
-       "min_twd": 100.0
+       "pct": 0.005,
+       "min_twd": null
       }
      }
     },
     {
      "bank": "元大銀行",
      "bank_url": "https://www.findrate.tw/bank/4/",
-     "cash_buy": 32.174,
-     "cash_sell": 32.788,
-     "spot_buy": 32.424,
-     "spot_sell": 32.56,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 32.355,
+     "cash_sell": 32.933,
+     "spot_buy": 32.605,
+     "spot_sell": 32.705,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -1262,91 +1106,13 @@
      }
     },
     {
-     "bank": "三信商銀",
-     "bank_url": "https://www.findrate.tw/bank/0/",
-     "cash_buy": 32.115,
-     "cash_sell": 32.99,
-     "spot_buy": 32.465,
-     "spot_sell": 32.64,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "凱基銀行",
-     "bank_url": "https://www.findrate.tw/bank/33/",
-     "cash_buy": 32.293,
-     "cash_sell": 32.743,
-     "spot_buy": 32.493,
-     "spot_sell": 32.593,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "台幣總額之1%",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "板信銀行",
-     "bank_url": "https://www.findrate.tw/bank/20/",
-     "cash_buy": 32.113,
-     "cash_sell": 32.763,
-     "spot_buy": 32.463,
-     "spot_sell": 32.563,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "台幣總額0.5%,最低NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.005,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.005,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "土地銀行",
-     "bank_url": "https://www.findrate.tw/bank/12/",
-     "cash_buy": 32.103,
-     "cash_sell": 32.813,
-     "spot_buy": 32.438,
-     "spot_sell": 32.588,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "盤谷銀行",
+     "bank_url": "https://www.findrate.tw/bank/22/",
+     "cash_buy": 32.18,
+     "cash_sell": 32.88,
+     "spot_buy": 32.57,
+     "spot_sell": 32.69,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -1366,13 +1132,247 @@
      }
     },
     {
-     "bank": "兆豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/5/",
-     "cash_buy": 32.12,
-     "cash_sell": 32.79,
-     "spot_buy": 32.46,
-     "spot_sell": 32.56,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "凱基銀行",
+     "bank_url": "https://www.findrate.tw/bank/33/",
+     "cash_buy": 32.408,
+     "cash_sell": 32.858,
+     "spot_buy": 32.608,
+     "spot_sell": 32.708,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "台幣總額之1%",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "陽信銀行",
+     "bank_url": "https://www.findrate.tw/bank/36/",
+     "cash_buy": 32.35,
+     "cash_sell": 32.92,
+     "spot_buy": 32.6,
+     "spot_sell": 32.7,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "富邦銀行",
+     "bank_url": "https://www.findrate.tw/bank/8/",
+     "cash_buy": 32.3415,
+     "cash_sell": 32.9235,
+     "spot_buy": 32.6035,
+     "spot_sell": 32.7035,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "總額0.135%,最低NT$100（J卡8折優惠）",
+      "notes": "J卡8折優惠",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.00135,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.00135,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "聯邦銀行",
+     "bank_url": "https://www.findrate.tw/bank/27/",
+     "cash_buy": 32.423,
+     "cash_sell": 32.883,
+     "spot_buy": 32.603,
+     "spot_sell": 32.703,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "台幣總額0.7%,最低NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.006999999999999999,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.006999999999999999,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "星展銀行",
+     "bank_url": "https://www.findrate.tw/bank/19/",
+     "cash_buy": 32.393,
+     "cash_sell": 32.897,
+     "spot_buy": 32.606,
+     "spot_sell": 32.706,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "總額1%,最低NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "第一銀行",
+     "bank_url": "https://www.findrate.tw/bank/26/",
+     "cash_buy": 32.392,
+     "cash_sell": 32.907,
+     "spot_buy": 32.6,
+     "spot_sell": 32.7,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100,非本行每筆$200",
+      "notes": "非本行每筆200",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "板信銀行",
+     "bank_url": "https://www.findrate.tw/bank/20/",
+     "cash_buy": 32.25,
+     "cash_sell": 32.9,
+     "spot_buy": 32.6,
+     "spot_sell": 32.7,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "台幣總額0.5%,最低NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.005,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.005,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "國泰世華",
+     "bank_url": "https://www.findrate.tw/bank/11/",
+     "cash_buy": 32.33,
+     "cash_sell": 32.93,
+     "spot_buy": 32.61,
+     "spot_sell": 32.71,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$200",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 200.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 200.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "郵局",
+     "bank_url": "https://www.findrate.tw/bank/35/",
+     "cash_buy": 32.17,
+     "cash_sell": 32.925,
+     "spot_buy": 32.59,
+     "spot_sell": 32.69,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "免手續費",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 0.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 0.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "土地銀行",
+     "bank_url": "https://www.findrate.tw/bank/12/",
+     "cash_buy": 32.22,
+     "cash_sell": 32.93,
+     "spot_buy": 32.6,
+     "spot_sell": 32.7,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -1396,9 +1396,9 @@
      "bank_url": "https://www.findrate.tw/bank/41/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 32.514,
-     "spot_sell": 32.554,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 32.642,
+     "spot_sell": 32.682,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -1418,78 +1418,26 @@
      }
     },
     {
-     "bank": "永豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/21/",
-     "cash_buy": 32.327,
-     "cash_sell": 32.84,
-     "spot_buy": 32.527,
-     "spot_sell": 32.64,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "兆豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/5/",
+     "cash_buy": 32.25,
+     "cash_sell": 32.92,
+     "spot_buy": 32.59,
+     "spot_sell": 32.69,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "每筆NT$100",
+      "raw": "免手續費",
       "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
-       "flat_twd": 100.0,
+       "flat_twd": 0.0,
        "pct": null,
        "min_twd": null
       },
       "buy": {
        "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "星展銀行",
-     "bank_url": "https://www.findrate.tw/bank/19/",
-     "cash_buy": 32.195,
-     "cash_sell": 32.83,
-     "spot_buy": 32.408,
-     "spot_sell": 32.639,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額1%,最低NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "台新銀行",
-     "bank_url": "https://www.findrate.tw/bank/9/",
-     "cash_buy": 32.282,
-     "cash_sell": 32.759,
-     "spot_buy": 32.484,
-     "spot_sell": 32.584,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "有賬戶免手續費",
-      "notes": "",
-      "parsed": false,
-      "sell": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "unknown",
-       "flat_twd": null,
+       "flat_twd": 0.0,
        "pct": null,
        "min_twd": null
       }
@@ -1498,11 +1446,37 @@
     {
      "bank": "瑞興銀行",
      "bank_url": "https://www.findrate.tw/bank/38/",
-     "cash_buy": 32.305,
-     "cash_sell": 32.805,
-     "spot_buy": 32.505,
-     "spot_sell": 32.605,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 32.406,
+     "cash_sell": 32.906,
+     "spot_buy": 32.606,
+     "spot_sell": 32.706,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "三信商銀",
+     "bank_url": "https://www.findrate.tw/bank/0/",
+     "cash_buy": 32.25,
+     "cash_sell": 33.055,
+     "spot_buy": 32.6,
+     "spot_sell": 32.705,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -1524,11 +1498,11 @@
     {
      "bank": "高雄銀行",
      "bank_url": "https://www.findrate.tw/bank/37/",
-     "cash_buy": 32.305,
-     "cash_sell": 32.705,
-     "spot_buy": 32.455,
-     "spot_sell": 32.555,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 32.44,
+     "cash_sell": 32.84,
+     "spot_buy": 32.59,
+     "spot_sell": 32.69,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -1548,65 +1522,13 @@
      }
     },
     {
-     "bank": "華南銀行",
-     "bank_url": "https://www.findrate.tw/bank/31/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 32.43,
-     "spot_sell": 32.595,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "合作金庫",
-     "bank_url": "https://www.findrate.tw/bank/10/",
-     "cash_buy": 32.115,
-     "cash_sell": 32.813,
-     "spot_buy": 32.43,
-     "spot_sell": 32.59,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100,有開戶免收",
-      "notes": "有開戶免收",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "台中銀行",
-     "bank_url": "https://www.findrate.tw/bank/7/",
-     "cash_buy": 32.215,
-     "cash_sell": 32.765,
-     "spot_buy": 32.465,
-     "spot_sell": 32.565,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "永豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/21/",
+     "cash_buy": 32.4,
+     "cash_sell": 32.915,
+     "spot_buy": 32.6,
+     "spot_sell": 32.715,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -1628,11 +1550,11 @@
     {
      "bank": "新光銀行",
      "bank_url": "https://www.findrate.tw/bank/17/",
-     "cash_buy": 32.21,
-     "cash_sell": 32.83,
-     "spot_buy": 32.51,
-     "spot_sell": 32.61,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 32.303,
+     "cash_sell": 32.923,
+     "spot_buy": 32.603,
+     "spot_sell": 32.703,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -1652,26 +1574,78 @@
      }
     },
     {
-     "bank": "郵局",
-     "bank_url": "https://www.findrate.tw/bank/35/",
-     "cash_buy": 32.04,
-     "cash_sell": 32.795,
-     "spot_buy": 32.46,
-     "spot_sell": 32.56,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "台新銀行",
+     "bank_url": "https://www.findrate.tw/bank/9/",
+     "cash_buy": 32.41,
+     "cash_sell": 32.887,
+     "spot_buy": 32.612,
+     "spot_sell": 32.712,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "免手續費",
+      "raw": "有賬戶免手續費",
+      "notes": "",
+      "parsed": false,
+      "sell": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "華南銀行",
+     "bank_url": "https://www.findrate.tw/bank/31/",
+     "cash_buy": 32.355,
+     "cash_sell": 32.955,
+     "spot_buy": 32.605,
+     "spot_sell": 32.705,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
       "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
-       "flat_twd": 0.0,
+       "flat_twd": 100.0,
        "pct": null,
        "min_twd": null
       },
       "buy": {
        "kind": "flat",
-       "flat_twd": 0.0,
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "台中銀行",
+     "bank_url": "https://www.findrate.tw/bank/7/",
+     "cash_buy": 32.35,
+     "cash_sell": 32.9,
+     "spot_buy": 32.6,
+     "spot_sell": 32.7,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
        "pct": null,
        "min_twd": null
       }
@@ -1684,7 +1658,7 @@
      "cash_sell": 32.715,
      "spot_buy": 32.465,
      "spot_sell": 32.565,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額0.7%,最低NT$100",
       "notes": "",
@@ -1706,11 +1680,11 @@
     {
      "bank": "玉山銀行",
      "bank_url": "https://www.findrate.tw/bank/25/",
-     "cash_buy": 32.25,
-     "cash_sell": 32.8,
-     "spot_buy": 32.5,
-     "spot_sell": 32.6,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 32.35,
+     "cash_sell": 32.9,
+     "spot_buy": 32.6,
+     "spot_sell": 32.7,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100 ATM免收",
       "notes": "ATM免收",
@@ -1730,39 +1704,13 @@
      }
     },
     {
-     "bank": "王道銀行",
-     "bank_url": "https://www.findrate.tw/bank/39/",
-     "cash_buy": 32.185,
-     "cash_sell": 32.815,
-     "spot_buy": 32.485,
-     "spot_sell": 32.585,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "最低NT$100",
-      "notes": "",
-      "parsed": false,
-      "sell": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
      "bank": "安泰銀行",
      "bank_url": "https://www.findrate.tw/bank/15/",
-     "cash_buy": 32.14,
-     "cash_sell": 32.78,
-     "spot_buy": 32.46,
-     "spot_sell": 32.56,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 32.28,
+     "cash_sell": 32.92,
+     "spot_buy": 32.6,
+     "spot_sell": 32.7,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "非本行每筆NT100",
       "notes": "非本行客戶費率;本行客戶請洽銀行",
@@ -1782,13 +1730,65 @@
      }
     },
     {
+     "bank": "合作金庫",
+     "bank_url": "https://www.findrate.tw/bank/10/",
+     "cash_buy": 32.288,
+     "cash_sell": 32.926,
+     "spot_buy": 32.603,
+     "spot_sell": 32.703,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100,有開戶免收",
+      "notes": "有開戶免收",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "王道銀行",
+     "bank_url": "https://www.findrate.tw/bank/39/",
+     "cash_buy": 32.292,
+     "cash_sell": 32.922,
+     "spot_buy": 32.592,
+     "spot_sell": 32.692,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "最低NT$100",
+      "notes": "",
+      "parsed": false,
+      "sell": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
      "bank": "華泰銀行",
      "bank_url": "https://www.findrate.tw/bank/32/",
-     "cash_buy": 32.23,
-     "cash_sell": 32.775,
-     "spot_buy": 32.53,
-     "spot_sell": 32.63,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 32.3,
+     "cash_sell": 32.845,
+     "spot_buy": 32.6,
+     "spot_sell": 32.7,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -1810,11 +1810,11 @@
     {
      "bank": "京城銀行",
      "bank_url": "https://www.findrate.tw/bank/3/",
-     "cash_buy": 32.113,
-     "cash_sell": 32.803,
-     "spot_buy": 32.483,
-     "spot_sell": 32.583,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 32.23,
+     "cash_sell": 32.92,
+     "spot_buy": 32.6,
+     "spot_sell": 32.7,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額0.6%",
       "notes": "",
@@ -1891,39 +1891,13 @@
      }
     },
     {
-     "bank": "華南銀行",
-     "bank_url": "https://www.findrate.tw/bank/31/",
-     "cash_buy": 0.02253,
-     "cash_sell": 0.02655,
-     "spot_buy": null,
-     "spot_sell": null,
-     "updated_at": "2026-10-29T16:12:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
      "bank": "元大銀行",
      "bank_url": "https://www.findrate.tw/bank/4/",
-     "cash_buy": 0.0228,
-     "cash_sell": 0.0258,
+     "cash_buy": 0.023,
+     "cash_sell": 0.026,
      "spot_buy": null,
      "spot_sell": null,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -1945,11 +1919,11 @@
     {
      "bank": "兆豐銀行",
      "bank_url": "https://www.findrate.tw/bank/5/",
-     "cash_buy": 0.0226,
-     "cash_sell": 0.0262,
+     "cash_buy": 0.0228,
+     "cash_sell": 0.0264,
      "spot_buy": null,
      "spot_sell": null,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -1971,11 +1945,37 @@
     {
      "bank": "高雄銀行",
      "bank_url": "https://www.findrate.tw/bank/37/",
-     "cash_buy": 0.0225,
-     "cash_sell": 0.0265,
+     "cash_buy": 0.0227,
+     "cash_sell": 0.0267,
      "spot_buy": null,
      "spot_sell": null,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "華南銀行",
+     "bank_url": "https://www.findrate.tw/bank/31/",
+     "cash_buy": 0.0227,
+     "cash_sell": 0.0267,
+     "spot_buy": null,
+     "spot_sell": null,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -2052,13 +2052,39 @@
      }
     },
     {
+     "bank": "彰化銀行",
+     "bank_url": "https://www.findrate.tw/bank/16/",
+     "cash_buy": 35.914,
+     "cash_sell": 37.014,
+     "spot_buy": 36.314,
+     "spot_sell": 36.714,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "結購外幣現鈔免收",
+      "notes": "僅結購(買外幣)方向明示免收",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 0.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
      "bank": "渣打銀行",
      "bank_url": "https://www.findrate.tw/bank/23/",
-     "cash_buy": 35.731,
-     "cash_sell": 36.707,
-     "spot_buy": 36.018,
-     "spot_sell": 36.42,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 36.031,
+     "cash_sell": 37.007,
+     "spot_buy": 36.318,
+     "spot_sell": 36.72,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$500",
       "notes": "",
@@ -2078,16 +2104,68 @@
      }
     },
     {
-     "bank": "第一銀行",
-     "bank_url": "https://www.findrate.tw/bank/26/",
-     "cash_buy": 35.757,
-     "cash_sell": 36.763,
-     "spot_buy": 36.06,
-     "spot_sell": 36.46,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "遠東商銀",
+     "bank_url": "https://www.findrate.tw/bank/34/",
+     "cash_buy": 35.83,
+     "cash_sell": 37.03,
+     "spot_buy": 36.35,
+     "spot_sell": 36.71,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "每筆NT$100,非本行每筆$200",
-      "notes": "非本行每筆200",
+      "raw": "總額1%,最低100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "匯豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/6/",
+     "cash_buy": 35.99236,
+     "cash_sell": 37.05518,
+     "spot_buy": 36.29236,
+     "spot_sell": 36.75518,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "台幣總額之0.5%",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.005,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.005,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "元大銀行",
+     "bank_url": "https://www.findrate.tw/bank/4/",
+     "cash_buy": 35.96,
+     "cash_sell": 37.06,
+     "spot_buy": 36.36,
+     "spot_sell": 36.68,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
@@ -2108,9 +2186,9 @@
      "bank_url": "https://www.findrate.tw/bank/22/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 36.1,
-     "spot_sell": 36.5,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 36.32,
+     "spot_sell": 36.72,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -2130,247 +2208,13 @@
      }
     },
     {
-     "bank": "彰化銀行",
-     "bank_url": "https://www.findrate.tw/bank/16/",
-     "cash_buy": 35.668,
-     "cash_sell": 36.768,
-     "spot_buy": 36.068,
-     "spot_sell": 36.468,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "結購外幣現鈔免收",
-      "notes": "僅結購(買外幣)方向明示免收",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 0.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "匯豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/6/",
-     "cash_buy": 35.7296,
-     "cash_sell": 36.78904,
-     "spot_buy": 36.0296,
-     "spot_sell": 36.48904,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "台幣總額之0.5%",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.005,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.005,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "富邦銀行",
-     "bank_url": "https://www.findrate.tw/bank/8/",
-     "cash_buy": 35.571,
-     "cash_sell": 36.822,
-     "spot_buy": 35.9365,
-     "spot_sell": 36.4565,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額0.135%,最低NT$100（J卡8折優惠）",
-      "notes": "J卡8折優惠",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.00135,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.00135,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "陽信銀行",
-     "bank_url": "https://www.findrate.tw/bank/36/",
-     "cash_buy": 35.64,
-     "cash_sell": 36.75,
-     "spot_buy": 36.04,
-     "spot_sell": 36.44,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "國泰世華",
-     "bank_url": "https://www.findrate.tw/bank/11/",
-     "cash_buy": 35.5,
-     "cash_sell": 36.78,
-     "spot_buy": 35.93,
-     "spot_sell": 36.43,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$200",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 200.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 200.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "遠東商銀",
-     "bank_url": "https://www.findrate.tw/bank/34/",
-     "cash_buy": 35.5107,
-     "cash_sell": 36.7107,
-     "spot_buy": 36.04,
-     "spot_sell": 36.38,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額1%,最低100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "聯邦銀行",
-     "bank_url": "https://www.findrate.tw/bank/27/",
-     "cash_buy": 35.669,
-     "cash_sell": 36.729,
-     "spot_buy": 35.949,
-     "spot_sell": 36.449,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "台幣總額0.7%,最低NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.006999999999999999,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.006999999999999999,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "元大銀行",
-     "bank_url": "https://www.findrate.tw/bank/4/",
-     "cash_buy": 35.59,
-     "cash_sell": 36.69,
-     "spot_buy": 35.99,
-     "spot_sell": 36.31,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "三信商銀",
-     "bank_url": "https://www.findrate.tw/bank/0/",
-     "cash_buy": 35.41,
-     "cash_sell": 37.11,
-     "spot_buy": 36.01,
-     "spot_sell": 36.51,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
      "bank": "凱基銀行",
      "bank_url": "https://www.findrate.tw/bank/33/",
-     "cash_buy": 35.734,
-     "cash_sell": 36.794,
-     "spot_buy": 36.059,
-     "spot_sell": 36.469,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 35.996,
+     "cash_sell": 37.056,
+     "spot_buy": 36.321,
+     "spot_sell": 36.731,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "台幣總額之1%",
       "notes": "",
@@ -2390,13 +2234,143 @@
      }
     },
     {
+     "bank": "陽信銀行",
+     "bank_url": "https://www.findrate.tw/bank/36/",
+     "cash_buy": 35.92,
+     "cash_sell": 37.03,
+     "spot_buy": 36.32,
+     "spot_sell": 36.72,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "富邦銀行",
+     "bank_url": "https://www.findrate.tw/bank/8/",
+     "cash_buy": 35.9513,
+     "cash_sell": 37.0823,
+     "spot_buy": 36.3168,
+     "spot_sell": 36.7168,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "總額0.135%,最低NT$100（J卡8折優惠）",
+      "notes": "J卡8折優惠",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.00135,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.00135,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "聯邦銀行",
+     "bank_url": "https://www.findrate.tw/bank/27/",
+     "cash_buy": 35.996,
+     "cash_sell": 37.056,
+     "spot_buy": 36.346,
+     "spot_sell": 36.706,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "台幣總額0.7%,最低NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.006999999999999999,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.006999999999999999,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "星展銀行",
+     "bank_url": "https://www.findrate.tw/bank/19/",
+     "cash_buy": 35.95,
+     "cash_sell": 37.11,
+     "spot_buy": 36.33,
+     "spot_sell": 36.74,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "總額1%,最低NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "第一銀行",
+     "bank_url": "https://www.findrate.tw/bank/26/",
+     "cash_buy": 36.019,
+     "cash_sell": 37.025,
+     "spot_buy": 36.322,
+     "spot_sell": 36.722,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100,非本行每筆$200",
+      "notes": "非本行每筆200",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
      "bank": "板信銀行",
      "bank_url": "https://www.findrate.tw/bank/20/",
-     "cash_buy": 35.44,
-     "cash_sell": 36.74,
-     "spot_buy": 36.04,
-     "spot_sell": 36.44,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 35.72,
+     "cash_sell": 37.02,
+     "spot_buy": 36.32,
+     "spot_sell": 36.72,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "台幣總額0.5%,最低NT$100",
       "notes": "",
@@ -2416,13 +2390,39 @@
      }
     },
     {
-     "bank": "土地銀行",
-     "bank_url": "https://www.findrate.tw/bank/12/",
-     "cash_buy": 35.66,
-     "cash_sell": 36.71,
-     "spot_buy": 35.87,
-     "spot_sell": 36.48,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "國泰世華",
+     "bank_url": "https://www.findrate.tw/bank/11/",
+     "cash_buy": 35.9,
+     "cash_sell": 37.08,
+     "spot_buy": 36.33,
+     "spot_sell": 36.73,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$200",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 200.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 200.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "郵局",
+     "bank_url": "https://www.findrate.tw/bank/35/",
+     "cash_buy": 35.45,
+     "cash_sell": 37.08,
+     "spot_buy": 36.32,
+     "spot_sell": 36.72,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -2442,13 +2442,13 @@
      }
     },
     {
-     "bank": "兆豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/5/",
-     "cash_buy": 35.39,
-     "cash_sell": 36.73,
-     "spot_buy": 36.01,
-     "spot_sell": 36.41,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "土地銀行",
+     "bank_url": "https://www.findrate.tw/bank/12/",
+     "cash_buy": 35.93,
+     "cash_sell": 36.98,
+     "spot_buy": 36.35,
+     "spot_sell": 36.71,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -2472,9 +2472,9 @@
      "bank_url": "https://www.findrate.tw/bank/41/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 36.089,
-     "spot_sell": 36.319,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 36.408,
+     "spot_sell": 36.638,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -2494,78 +2494,26 @@
      }
     },
     {
-     "bank": "永豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/21/",
-     "cash_buy": 35.7502,
-     "cash_sell": 36.8335,
-     "spot_buy": 36.1002,
-     "spot_sell": 36.4835,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "兆豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/5/",
+     "cash_buy": 35.7,
+     "cash_sell": 37.04,
+     "spot_buy": 36.32,
+     "spot_sell": 36.72,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "每筆NT$100",
+      "raw": "免手續費",
       "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
-       "flat_twd": 100.0,
+       "flat_twd": 0.0,
        "pct": null,
        "min_twd": null
       },
       "buy": {
        "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "星展銀行",
-     "bank_url": "https://www.findrate.tw/bank/19/",
-     "cash_buy": 35.53,
-     "cash_sell": 36.84,
-     "spot_buy": 35.91,
-     "spot_sell": 36.46,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額1%,最低NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "台新銀行",
-     "bank_url": "https://www.findrate.tw/bank/9/",
-     "cash_buy": 35.696,
-     "cash_sell": 36.712,
-     "spot_buy": 36.029,
-     "spot_sell": 36.379,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "有賬戶免手續費",
-      "notes": "",
-      "parsed": false,
-      "sell": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "unknown",
-       "flat_twd": null,
+       "flat_twd": 0.0,
        "pct": null,
        "min_twd": null
       }
@@ -2574,11 +2522,37 @@
     {
      "bank": "瑞興銀行",
      "bank_url": "https://www.findrate.tw/bank/38/",
-     "cash_buy": 35.8293,
-     "cash_sell": 36.7293,
-     "spot_buy": 36.0793,
-     "spot_sell": 36.4793,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 36.1019,
+     "cash_sell": 37.0019,
+     "spot_buy": 36.3519,
+     "spot_sell": 36.7519,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "三信商銀",
+     "bank_url": "https://www.findrate.tw/bank/0/",
+     "cash_buy": 35.71,
+     "cash_sell": 37.33,
+     "spot_buy": 36.31,
+     "spot_sell": 36.73,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -2600,11 +2574,11 @@
     {
      "bank": "高雄銀行",
      "bank_url": "https://www.findrate.tw/bank/37/",
-     "cash_buy": 35.71,
-     "cash_sell": 36.71,
-     "spot_buy": 36.01,
-     "spot_sell": 36.41,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 36.01,
+     "cash_sell": 37.01,
+     "spot_buy": 36.31,
+     "spot_sell": 36.71,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -2624,65 +2598,13 @@
      }
     },
     {
-     "bank": "華南銀行",
-     "bank_url": "https://www.findrate.tw/bank/31/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 35.963,
-     "spot_sell": 36.364,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "合作金庫",
-     "bank_url": "https://www.findrate.tw/bank/10/",
-     "cash_buy": 35.33,
-     "cash_sell": 36.795,
-     "spot_buy": 35.86,
-     "spot_sell": 36.46,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100,有開戶免收",
-      "notes": "有開戶免收",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "台中銀行",
-     "bank_url": "https://www.findrate.tw/bank/7/",
-     "cash_buy": 35.6,
-     "cash_sell": 36.8,
-     "spot_buy": 35.97,
-     "spot_sell": 36.37,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "永豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/21/",
+     "cash_buy": 35.9832,
+     "cash_sell": 37.0687,
+     "spot_buy": 36.3332,
+     "spot_sell": 36.7187,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -2704,11 +2626,11 @@
     {
      "bank": "新光銀行",
      "bank_url": "https://www.findrate.tw/bank/17/",
-     "cash_buy": 35.601,
-     "cash_sell": 36.831,
-     "spot_buy": 36.101,
-     "spot_sell": 36.501,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 35.82,
+     "cash_sell": 37.05,
+     "spot_buy": 36.32,
+     "spot_sell": 36.72,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -2728,26 +2650,78 @@
      }
     },
     {
-     "bank": "郵局",
-     "bank_url": "https://www.findrate.tw/bank/35/",
-     "cash_buy": 35.19,
-     "cash_sell": 36.82,
-     "spot_buy": 36.06,
-     "spot_sell": 36.46,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "台新銀行",
+     "bank_url": "https://www.findrate.tw/bank/9/",
+     "cash_buy": 36.015,
+     "cash_sell": 37.031,
+     "spot_buy": 36.348,
+     "spot_sell": 36.698,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "免手續費",
+      "raw": "有賬戶免手續費",
+      "notes": "",
+      "parsed": false,
+      "sell": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "華南銀行",
+     "bank_url": "https://www.findrate.tw/bank/31/",
+     "cash_buy": 36.025,
+     "cash_sell": 36.975,
+     "spot_buy": 36.345,
+     "spot_sell": 36.705,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
       "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
-       "flat_twd": 0.0,
+       "flat_twd": 100.0,
        "pct": null,
        "min_twd": null
       },
       "buy": {
        "kind": "flat",
-       "flat_twd": 0.0,
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "台中銀行",
+     "bank_url": "https://www.findrate.tw/bank/7/",
+     "cash_buy": 35.87,
+     "cash_sell": 37.07,
+     "spot_buy": 36.32,
+     "spot_sell": 36.72,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
        "pct": null,
        "min_twd": null
       }
@@ -2760,7 +2734,7 @@
      "cash_sell": 36.75,
      "spot_buy": 36.05,
      "spot_sell": 36.45,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額0.7%,最低NT$100",
       "notes": "",
@@ -2782,11 +2756,11 @@
     {
      "bank": "玉山銀行",
      "bank_url": "https://www.findrate.tw/bank/25/",
-     "cash_buy": 35.74,
-     "cash_sell": 36.74,
-     "spot_buy": 36.04,
-     "spot_sell": 36.44,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 36.03,
+     "cash_sell": 37.03,
+     "spot_buy": 36.33,
+     "spot_sell": 36.73,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100 ATM免收",
       "notes": "ATM免收",
@@ -2806,39 +2780,13 @@
      }
     },
     {
-     "bank": "王道銀行",
-     "bank_url": "https://www.findrate.tw/bank/39/",
-     "cash_buy": 35.805,
-     "cash_sell": 36.705,
-     "spot_buy": 35.963,
-     "spot_sell": 36.463,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "最低NT$100",
-      "notes": "",
-      "parsed": false,
-      "sell": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
      "bank": "安泰銀行",
      "bank_url": "https://www.findrate.tw/bank/15/",
-     "cash_buy": 35.52,
-     "cash_sell": 36.79,
-     "spot_buy": 36.07,
-     "spot_sell": 36.43,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 35.79,
+     "cash_sell": 37.06,
+     "spot_buy": 36.34,
+     "spot_sell": 36.7,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "非本行每筆NT100",
       "notes": "非本行客戶費率;本行客戶請洽銀行",
@@ -2858,13 +2806,65 @@
      }
     },
     {
+     "bank": "合作金庫",
+     "bank_url": "https://www.findrate.tw/bank/10/",
+     "cash_buy": 35.78,
+     "cash_sell": 37.045,
+     "spot_buy": 36.31,
+     "spot_sell": 36.71,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100,有開戶免收",
+      "notes": "有開戶免收",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "王道銀行",
+     "bank_url": "https://www.findrate.tw/bank/39/",
+     "cash_buy": 36.064,
+     "cash_sell": 36.964,
+     "spot_buy": 36.399,
+     "spot_sell": 36.629,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "最低NT$100",
+      "notes": "",
+      "parsed": false,
+      "sell": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
      "bank": "華泰銀行",
      "bank_url": "https://www.findrate.tw/bank/32/",
-     "cash_buy": 35.84,
-     "cash_sell": 36.74,
-     "spot_buy": 36.09,
-     "spot_sell": 36.49,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 36.09,
+     "cash_sell": 36.99,
+     "spot_buy": 36.34,
+     "spot_sell": 36.74,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -2888,9 +2888,9 @@
      "bank_url": "https://www.findrate.tw/bank/3/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 36.0418,
-     "spot_sell": 36.4418,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 36.3354,
+     "spot_sell": 36.7354,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額0.6%",
       "notes": "",
@@ -2967,65 +2967,13 @@
      }
     },
     {
-     "bank": "第一銀行",
-     "bank_url": "https://www.findrate.tw/bank/26/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 0.9474,
-     "spot_sell": 0.9874,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100,非本行每筆$200",
-      "notes": "非本行每筆200",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "盤谷銀行",
-     "bank_url": "https://www.findrate.tw/bank/22/",
-     "cash_buy": 0.853,
-     "cash_sell": 1.023,
-     "spot_buy": 0.952,
-     "spot_sell": 0.989,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "免手續費",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 0.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 0.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
      "bank": "彰化銀行",
      "bank_url": "https://www.findrate.tw/bank/16/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 0.9491,
-     "spot_sell": 0.9891,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 0.9538,
+     "spot_sell": 0.9938,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "結購外幣現鈔免收",
       "notes": "僅結購(買外幣)方向明示免收",
@@ -3045,91 +2993,13 @@
      }
     },
     {
-     "bank": "富邦銀行",
-     "bank_url": "https://www.findrate.tw/bank/8/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 0.9344,
-     "spot_sell": 0.9944,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額0.135%,最低NT$100（J卡8折優惠）",
-      "notes": "J卡8折優惠",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.00135,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.00135,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "陽信銀行",
-     "bank_url": "https://www.findrate.tw/bank/36/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 0.9133,
-     "spot_sell": 1.0133,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "國泰世華",
-     "bank_url": "https://www.findrate.tw/bank/11/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 0.934,
-     "spot_sell": 0.994,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$200",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 200.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 200.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
      "bank": "遠東商銀",
      "bank_url": "https://www.findrate.tw/bank/34/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 0.9371,
-     "spot_sell": 0.9895,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 0.9429,
+     "spot_sell": 0.996,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額1%,最低100",
       "notes": "",
@@ -3153,9 +3023,9 @@
      "bank_url": "https://www.findrate.tw/bank/4/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 0.9382,
-     "spot_sell": 0.9882,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 0.9438,
+     "spot_sell": 0.9938,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -3175,39 +3045,13 @@
      }
     },
     {
-     "bank": "凱基銀行",
-     "bank_url": "https://www.findrate.tw/bank/33/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 0.944,
-     "spot_sell": 0.984,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "台幣總額之1%",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "土地銀行",
-     "bank_url": "https://www.findrate.tw/bank/12/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 0.939,
-     "spot_sell": 0.989,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "盤谷銀行",
+     "bank_url": "https://www.findrate.tw/bank/22/",
+     "cash_buy": 0.855,
+     "cash_sell": 1.025,
+     "spot_buy": 0.953,
+     "spot_sell": 0.99,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -3227,13 +3071,169 @@
      }
     },
     {
-     "bank": "兆豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/5/",
-     "cash_buy": 0.834,
-     "cash_sell": 1.024,
-     "spot_buy": 0.944,
-     "spot_sell": 0.986,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "凱基銀行",
+     "bank_url": "https://www.findrate.tw/bank/33/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 0.949,
+     "spot_sell": 0.989,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "台幣總額之1%",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "陽信銀行",
+     "bank_url": "https://www.findrate.tw/bank/36/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 0.9188,
+     "spot_sell": 1.0188,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "富邦銀行",
+     "bank_url": "https://www.findrate.tw/bank/8/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 0.9489,
+     "spot_sell": 0.9889,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "總額0.135%,最低NT$100（J卡8折優惠）",
+      "notes": "J卡8折優惠",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.00135,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.00135,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "星展銀行",
+     "bank_url": "https://www.findrate.tw/bank/19/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 0.949,
+     "spot_sell": 0.99,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "總額1%,最低NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "第一銀行",
+     "bank_url": "https://www.findrate.tw/bank/26/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 0.9519,
+     "spot_sell": 0.9919,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100,非本行每筆$200",
+      "notes": "非本行每筆200",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "國泰世華",
+     "bank_url": "https://www.findrate.tw/bank/11/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 0.949,
+     "spot_sell": 0.989,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$200",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 200.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 200.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "土地銀行",
+     "bank_url": "https://www.findrate.tw/bank/12/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 0.943,
+     "spot_sell": 0.993,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -3257,9 +3257,9 @@
      "bank_url": "https://www.findrate.tw/bank/41/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 0.9539,
-     "spot_sell": 0.9755,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 0.9584,
+     "spot_sell": 0.98,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -3273,6 +3273,32 @@
       "buy": {
        "kind": "flat",
        "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "兆豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/5/",
+     "cash_buy": 0.839,
+     "cash_sell": 1.029,
+     "spot_buy": 0.949,
+     "spot_sell": 0.991,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "免手續費",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 0.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 0.0,
        "pct": null,
        "min_twd": null
       }
@@ -3283,9 +3309,9 @@
      "bank_url": "https://www.findrate.tw/bank/21/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 0.9458,
-     "spot_sell": 0.9844,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 0.9499,
+     "spot_sell": 0.9888,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -3305,28 +3331,28 @@
      }
     },
     {
-     "bank": "星展銀行",
-     "bank_url": "https://www.findrate.tw/bank/19/",
+     "bank": "新光銀行",
+     "bank_url": "https://www.findrate.tw/bank/17/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 0.943,
-     "spot_sell": 0.986,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 0.948,
+     "spot_sell": 0.99,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "總額1%,最低NT$100",
+      "raw": "每筆NT$100",
       "notes": "",
       "parsed": true,
       "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
       },
       "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
       }
      }
     },
@@ -3335,9 +3361,9 @@
      "bank_url": "https://www.findrate.tw/bank/9/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 0.9467,
-     "spot_sell": 0.9827,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 0.9512,
+     "spot_sell": 0.9872,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "有賬戶免手續費",
       "notes": "",
@@ -3361,61 +3387,9 @@
      "bank_url": "https://www.findrate.tw/bank/31/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 0.9341,
-     "spot_sell": 0.9942,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "合作金庫",
-     "bank_url": "https://www.findrate.tw/bank/10/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 0.9339,
-     "spot_sell": 0.9939,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100,有開戶免收",
-      "notes": "有開戶免收",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "新光銀行",
-     "bank_url": "https://www.findrate.tw/bank/17/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 0.944,
-     "spot_sell": 0.986,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 0.9492,
+     "spot_sell": 0.9886,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -3441,7 +3415,7 @@
      "cash_sell": null,
      "spot_buy": 0.9457,
      "spot_sell": 0.9817,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額0.7%,最低NT$100",
       "notes": "",
@@ -3465,12 +3439,38 @@
      "bank_url": "https://www.findrate.tw/bank/25/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 0.945,
-     "spot_sell": 0.985,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 0.949,
+     "spot_sell": 0.989,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100 ATM免收",
       "notes": "ATM免收",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "合作金庫",
+     "bank_url": "https://www.findrate.tw/bank/10/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 0.9538,
+     "spot_sell": 0.9938,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100,有開戶免收",
+      "notes": "有開戶免收",
       "parsed": true,
       "sell": {
        "kind": "flat",
@@ -3491,9 +3491,9 @@
      "bank_url": "https://www.findrate.tw/bank/3/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 0.9438,
-     "spot_sell": 0.9838,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 0.9486,
+     "spot_sell": 0.9886,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額0.6%",
       "notes": "",
@@ -3570,13 +3570,39 @@
      }
     },
     {
+     "bank": "彰化銀行",
+     "bank_url": "https://www.findrate.tw/bank/16/",
+     "cash_buy": 4.052,
+     "cash_sell": 4.212,
+     "spot_buy": 4.137,
+     "spot_sell": 4.187,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "結購外幣現鈔免收",
+      "notes": "僅結購(買外幣)方向明示免收",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 0.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
      "bank": "渣打銀行",
      "bank_url": "https://www.findrate.tw/bank/23/",
-     "cash_buy": 4.072,
-     "cash_sell": 4.214,
-     "spot_buy": 4.112,
-     "spot_sell": 4.174,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.091,
+     "cash_sell": 4.233,
+     "spot_buy": 4.131,
+     "spot_sell": 4.193,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$500",
       "notes": "",
@@ -3596,16 +3622,68 @@
      }
     },
     {
-     "bank": "第一銀行",
-     "bank_url": "https://www.findrate.tw/bank/26/",
-     "cash_buy": 3.988,
-     "cash_sell": 4.193,
-     "spot_buy": 4.115,
-     "spot_sell": 4.175,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "遠東商銀",
+     "bank_url": "https://www.findrate.tw/bank/34/",
+     "cash_buy": 4.033,
+     "cash_sell": 4.243,
+     "spot_buy": 4.135,
+     "spot_sell": 4.191,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "每筆NT$100,非本行每筆$200",
-      "notes": "非本行每筆200",
+      "raw": "總額1%,最低100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "匯豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/6/",
+     "cash_buy": 4.02916,
+     "cash_sell": 4.29526,
+     "spot_buy": 4.12916,
+     "spot_sell": 4.19526,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "台幣總額之0.5%",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.005,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.005,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "元大銀行",
+     "bank_url": "https://www.findrate.tw/bank/4/",
+     "cash_buy": 4.068,
+     "cash_sell": 4.224,
+     "spot_buy": 4.137,
+     "spot_sell": 4.189,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
@@ -3628,7 +3706,7 @@
      "cash_sell": null,
      "spot_buy": 4.13,
      "spot_sell": 4.19,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -3648,247 +3726,13 @@
      }
     },
     {
-     "bank": "彰化銀行",
-     "bank_url": "https://www.findrate.tw/bank/16/",
-     "cash_buy": 4.036,
-     "cash_sell": 4.196,
-     "spot_buy": 4.121,
-     "spot_sell": 4.171,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "結購外幣現鈔免收",
-      "notes": "僅結購(買外幣)方向明示免收",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 0.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "匯豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/6/",
-     "cash_buy": 4.01387,
-     "cash_sell": 4.27973,
-     "spot_buy": 4.11387,
-     "spot_sell": 4.17973,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "台幣總額之0.5%",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.005,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.005,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "富邦銀行",
-     "bank_url": "https://www.findrate.tw/bank/8/",
-     "cash_buy": 4.0397,
-     "cash_sell": 4.2237,
-     "spot_buy": 4.1057,
-     "spot_sell": 4.1837,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額0.135%,最低NT$100（J卡8折優惠）",
-      "notes": "J卡8折優惠",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.00135,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.00135,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "陽信銀行",
-     "bank_url": "https://www.findrate.tw/bank/36/",
-     "cash_buy": 4.03,
-     "cash_sell": 4.21,
-     "spot_buy": 4.113,
-     "spot_sell": 4.173,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "國泰世華",
-     "bank_url": "https://www.findrate.tw/bank/11/",
-     "cash_buy": 4.028,
-     "cash_sell": 4.218,
-     "spot_buy": 4.108,
-     "spot_sell": 4.178,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$200",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 200.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 200.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "遠東商銀",
-     "bank_url": "https://www.findrate.tw/bank/34/",
-     "cash_buy": 4.0112,
-     "cash_sell": 4.2212,
-     "spot_buy": 4.114,
-     "spot_sell": 4.168,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額1%,最低100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "聯邦銀行",
-     "bank_url": "https://www.findrate.tw/bank/27/",
-     "cash_buy": 4.086,
-     "cash_sell": 4.206,
-     "spot_buy": 4.106,
-     "spot_sell": 4.186,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "台幣總額0.7%,最低NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.006999999999999999,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.006999999999999999,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "元大銀行",
-     "bank_url": "https://www.findrate.tw/bank/4/",
-     "cash_buy": 4.046,
-     "cash_sell": 4.202,
-     "spot_buy": 4.115,
-     "spot_sell": 4.167,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "三信商銀",
-     "bank_url": "https://www.findrate.tw/bank/0/",
-     "cash_buy": 3.993,
-     "cash_sell": 4.304,
-     "spot_buy": 4.113,
-     "spot_sell": 4.184,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
      "bank": "凱基銀行",
      "bank_url": "https://www.findrate.tw/bank/33/",
-     "cash_buy": 4.083,
-     "cash_sell": 4.213,
-     "spot_buy": 4.118,
-     "spot_sell": 4.178,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.098,
+     "cash_sell": 4.228,
+     "spot_buy": 4.133,
+     "spot_sell": 4.193,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "台幣總額之1%",
       "notes": "",
@@ -3908,13 +3752,143 @@
      }
     },
     {
+     "bank": "陽信銀行",
+     "bank_url": "https://www.findrate.tw/bank/36/",
+     "cash_buy": 4.05,
+     "cash_sell": 4.23,
+     "spot_buy": 4.132,
+     "spot_sell": 4.192,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "富邦銀行",
+     "bank_url": "https://www.findrate.tw/bank/8/",
+     "cash_buy": 4.069,
+     "cash_sell": 4.229,
+     "spot_buy": 4.135,
+     "spot_sell": 4.189,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "總額0.135%,最低NT$100（J卡8折優惠）",
+      "notes": "J卡8折優惠",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.00135,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.00135,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "聯邦銀行",
+     "bank_url": "https://www.findrate.tw/bank/27/",
+     "cash_buy": 4.102,
+     "cash_sell": 4.222,
+     "spot_buy": 4.132,
+     "spot_sell": 4.192,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "台幣總額0.7%,最低NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.006999999999999999,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.006999999999999999,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "星展銀行",
+     "bank_url": "https://www.findrate.tw/bank/19/",
+     "cash_buy": 4.111,
+     "cash_sell": 4.213,
+     "spot_buy": 4.133,
+     "spot_sell": 4.192,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "總額1%,最低NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "第一銀行",
+     "bank_url": "https://www.findrate.tw/bank/26/",
+     "cash_buy": 4.005,
+     "cash_sell": 4.21,
+     "spot_buy": 4.132,
+     "spot_sell": 4.192,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100,非本行每筆$200",
+      "notes": "非本行每筆200",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
      "bank": "板信銀行",
      "bank_url": "https://www.findrate.tw/bank/20/",
-     "cash_buy": 3.984,
-     "cash_sell": 4.192,
-     "spot_buy": 4.114,
-     "spot_sell": 4.174,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.002,
+     "cash_sell": 4.21,
+     "spot_buy": 4.132,
+     "spot_sell": 4.192,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "台幣總額0.5%,最低NT$100",
       "notes": "",
@@ -3934,13 +3908,39 @@
      }
     },
     {
-     "bank": "土地銀行",
-     "bank_url": "https://www.findrate.tw/bank/12/",
-     "cash_buy": 3.99,
-     "cash_sell": 4.206,
-     "spot_buy": 4.116,
-     "spot_sell": 4.176,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "國泰世華",
+     "bank_url": "https://www.findrate.tw/bank/11/",
+     "cash_buy": 4.053,
+     "cash_sell": 4.233,
+     "spot_buy": 4.133,
+     "spot_sell": 4.193,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$200",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 200.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 200.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "郵局",
+     "bank_url": "https://www.findrate.tw/bank/35/",
+     "cash_buy": 3.963,
+     "cash_sell": 4.209,
+     "spot_buy": 4.133,
+     "spot_sell": 4.193,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -3960,13 +3960,13 @@
      }
     },
     {
-     "bank": "兆豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/5/",
-     "cash_buy": 3.986,
-     "cash_sell": 4.192,
-     "spot_buy": 4.116,
-     "spot_sell": 4.176,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "土地銀行",
+     "bank_url": "https://www.findrate.tw/bank/12/",
+     "cash_buy": 4.007,
+     "cash_sell": 4.211,
+     "spot_buy": 4.133,
+     "spot_sell": 4.193,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -3990,9 +3990,9 @@
      "bank_url": "https://www.findrate.tw/bank/41/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 4.1305,
-     "spot_sell": 4.1605,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 4.1478,
+     "spot_sell": 4.1778,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -4012,78 +4012,26 @@
      }
     },
     {
-     "bank": "永豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/21/",
-     "cash_buy": 4.0847,
-     "cash_sell": 4.2215,
-     "spot_buy": 4.1247,
-     "spot_sell": 4.1815,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "兆豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/5/",
+     "cash_buy": 4.003,
+     "cash_sell": 4.209,
+     "spot_buy": 4.133,
+     "spot_sell": 4.193,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "每筆NT$100",
+      "raw": "免手續費",
       "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
-       "flat_twd": 100.0,
+       "flat_twd": 0.0,
        "pct": null,
        "min_twd": null
       },
       "buy": {
        "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "星展銀行",
-     "bank_url": "https://www.findrate.tw/bank/19/",
-     "cash_buy": 4.084,
-     "cash_sell": 4.203,
-     "spot_buy": 4.107,
-     "spot_sell": 4.182,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額1%,最低NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "台新銀行",
-     "bank_url": "https://www.findrate.tw/bank/9/",
-     "cash_buy": 4.0755,
-     "cash_sell": 4.2155,
-     "spot_buy": 4.1205,
-     "spot_sell": 4.1705,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "有賬戶免手續費",
-      "notes": "",
-      "parsed": false,
-      "sell": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "unknown",
-       "flat_twd": null,
+       "flat_twd": 0.0,
        "pct": null,
        "min_twd": null
       }
@@ -4092,11 +4040,37 @@
     {
      "bank": "瑞興銀行",
      "bank_url": "https://www.findrate.tw/bank/38/",
-     "cash_buy": 4.0896,
-     "cash_sell": 4.2096,
-     "spot_buy": 4.1196,
-     "spot_sell": 4.1796,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.1032,
+     "cash_sell": 4.2232,
+     "spot_buy": 4.1332,
+     "spot_sell": 4.1932,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "三信商銀",
+     "bank_url": "https://www.findrate.tw/bank/0/",
+     "cash_buy": 4.011,
+     "cash_sell": 4.313,
+     "spot_buy": 4.131,
+     "spot_sell": 4.193,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -4118,11 +4092,11 @@
     {
      "bank": "高雄銀行",
      "bank_url": "https://www.findrate.tw/bank/37/",
-     "cash_buy": 4.063,
-     "cash_sell": 4.223,
-     "spot_buy": 4.113,
-     "spot_sell": 4.173,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.081,
+     "cash_sell": 4.241,
+     "spot_buy": 4.131,
+     "spot_sell": 4.191,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -4142,65 +4116,13 @@
      }
     },
     {
-     "bank": "華南銀行",
-     "bank_url": "https://www.findrate.tw/bank/31/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 4.113,
-     "spot_sell": 4.174,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "合作金庫",
-     "bank_url": "https://www.findrate.tw/bank/10/",
-     "cash_buy": 3.9932,
-     "cash_sell": 4.1987,
-     "spot_buy": 4.1062,
-     "spot_sell": 4.1862,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100,有開戶免收",
-      "notes": "有開戶免收",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "台中銀行",
-     "bank_url": "https://www.findrate.tw/bank/7/",
-     "cash_buy": 4.034,
-     "cash_sell": 4.206,
-     "spot_buy": 4.116,
-     "spot_sell": 4.172,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "永豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/21/",
+     "cash_buy": 4.0945,
+     "cash_sell": 4.2318,
+     "spot_buy": 4.1345,
+     "spot_sell": 4.1918,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -4222,11 +4144,11 @@
     {
      "bank": "新光銀行",
      "bank_url": "https://www.findrate.tw/bank/17/",
-     "cash_buy": 4.03,
-     "cash_sell": 4.21,
-     "spot_buy": 4.12,
-     "spot_sell": 4.18,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.042,
+     "cash_sell": 4.222,
+     "spot_buy": 4.132,
+     "spot_sell": 4.192,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -4246,26 +4168,78 @@
      }
     },
     {
-     "bank": "郵局",
-     "bank_url": "https://www.findrate.tw/bank/35/",
-     "cash_buy": 3.947,
-     "cash_sell": 4.193,
-     "spot_buy": 4.117,
-     "spot_sell": 4.177,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "台新銀行",
+     "bank_url": "https://www.findrate.tw/bank/9/",
+     "cash_buy": 4.0928,
+     "cash_sell": 4.2328,
+     "spot_buy": 4.1378,
+     "spot_sell": 4.1878,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "免手續費",
+      "raw": "有賬戶免手續費",
+      "notes": "",
+      "parsed": false,
+      "sell": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "華南銀行",
+     "bank_url": "https://www.findrate.tw/bank/31/",
+     "cash_buy": 4.052,
+     "cash_sell": 4.21,
+     "spot_buy": 4.134,
+     "spot_sell": 4.19,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
       "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
-       "flat_twd": 0.0,
+       "flat_twd": 100.0,
        "pct": null,
        "min_twd": null
       },
       "buy": {
        "kind": "flat",
-       "flat_twd": 0.0,
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "台中銀行",
+     "bank_url": "https://www.findrate.tw/bank/7/",
+     "cash_buy": 4.052,
+     "cash_sell": 4.224,
+     "spot_buy": 4.134,
+     "spot_sell": 4.19,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
        "pct": null,
        "min_twd": null
       }
@@ -4278,7 +4252,7 @@
      "cash_sell": 4.208,
      "spot_buy": 4.123,
      "spot_sell": 4.173,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額0.7%,最低NT$100",
       "notes": "",
@@ -4300,14 +4274,66 @@
     {
      "bank": "玉山銀行",
      "bank_url": "https://www.findrate.tw/bank/25/",
-     "cash_buy": 4.046,
-     "cash_sell": 4.206,
-     "spot_buy": 4.116,
-     "spot_sell": 4.176,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.06,
+     "cash_sell": 4.22,
+     "spot_buy": 4.13,
+     "spot_sell": 4.19,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100 ATM免收",
       "notes": "ATM免收",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "安泰銀行",
+     "bank_url": "https://www.findrate.tw/bank/15/",
+     "cash_buy": 4.019,
+     "cash_sell": 4.205,
+     "spot_buy": 4.132,
+     "spot_sell": 4.192,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "非本行每筆NT100",
+      "notes": "非本行客戶費率;本行客戶請洽銀行",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "合作金庫",
+     "bank_url": "https://www.findrate.tw/bank/10/",
+     "cash_buy": 4.0225,
+     "cash_sell": 4.208,
+     "spot_buy": 4.1355,
+     "spot_sell": 4.1955,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100,有開戶免收",
+      "notes": "有開戶免收",
       "parsed": true,
       "sell": {
        "kind": "flat",
@@ -4328,9 +4354,9 @@
      "bank_url": "https://www.findrate.tw/bank/39/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 4.046,
-     "spot_sell": 4.246,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 4.14,
+     "spot_sell": 4.182,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "最低NT$100",
       "notes": "",
@@ -4350,39 +4376,13 @@
      }
     },
     {
-     "bank": "安泰銀行",
-     "bank_url": "https://www.findrate.tw/bank/15/",
-     "cash_buy": 4.0,
-     "cash_sell": 4.186,
-     "spot_buy": 4.113,
-     "spot_sell": 4.173,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "非本行每筆NT100",
-      "notes": "非本行客戶費率;本行客戶請洽銀行",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
      "bank": "華泰銀行",
      "bank_url": "https://www.findrate.tw/bank/32/",
-     "cash_buy": 4.052,
-     "cash_sell": 4.202,
-     "spot_buy": 4.122,
-     "spot_sell": 4.182,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.062,
+     "cash_sell": 4.212,
+     "spot_buy": 4.132,
+     "spot_sell": 4.192,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -4406,9 +4406,9 @@
      "bank_url": "https://www.findrate.tw/bank/3/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 4.1164,
-     "spot_sell": 4.1764,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 4.1319,
+     "spot_sell": 4.1919,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額0.6%",
       "notes": "",
@@ -4485,13 +4485,39 @@
      }
     },
     {
+     "bank": "彰化銀行",
+     "bank_url": "https://www.findrate.tw/bank/16/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 25.448,
+     "spot_sell": 25.648,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "結購外幣現鈔免收",
+      "notes": "僅結購(買外幣)方向明示免收",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 0.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
      "bank": "渣打銀行",
      "bank_url": "https://www.findrate.tw/bank/23/",
-     "cash_buy": 25.06,
-     "cash_sell": 25.71,
-     "spot_buy": 25.28,
-     "spot_sell": 25.49,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 25.229,
+     "cash_sell": 25.879,
+     "spot_buy": 25.449,
+     "spot_sell": 25.659,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$500",
       "notes": "",
@@ -4511,16 +4537,68 @@
      }
     },
     {
-     "bank": "第一銀行",
-     "bank_url": "https://www.findrate.tw/bank/26/",
+     "bank": "遠東商銀",
+     "bank_url": "https://www.findrate.tw/bank/34/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 25.293,
-     "spot_sell": 25.493,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 25.45,
+     "spot_sell": 25.67,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "每筆NT$100,非本行每筆$200",
-      "notes": "非本行每筆200",
+      "raw": "總額1%,最低100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "匯豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/6/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 25.43422,
+     "spot_sell": 25.67298,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "台幣總額之0.5%",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.005,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.005,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "元大銀行",
+     "bank_url": "https://www.findrate.tw/bank/4/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 25.47,
+     "spot_sell": 25.63,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
@@ -4541,9 +4619,9 @@
      "bank_url": "https://www.findrate.tw/bank/22/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 25.3,
-     "spot_sell": 25.6,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 25.39,
+     "spot_sell": 25.69,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -4563,221 +4641,13 @@
      }
     },
     {
-     "bank": "彰化銀行",
-     "bank_url": "https://www.findrate.tw/bank/16/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 25.307,
-     "spot_sell": 25.507,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "結購外幣現鈔免收",
-      "notes": "僅結購(買外幣)方向明示免收",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 0.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "匯豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/6/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 25.28846,
-     "spot_sell": 25.52582,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "台幣總額之0.5%",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.005,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.005,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "富邦銀行",
-     "bank_url": "https://www.findrate.tw/bank/8/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 25.1956,
-     "spot_sell": 25.5756,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額0.135%,最低NT$100（J卡8折優惠）",
-      "notes": "J卡8折優惠",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.00135,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.00135,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "陽信銀行",
-     "bank_url": "https://www.findrate.tw/bank/36/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 25.29,
-     "spot_sell": 25.49,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "國泰世華",
-     "bank_url": "https://www.findrate.tw/bank/11/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 25.23,
-     "spot_sell": 25.53,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$200",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 200.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 200.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "遠東商銀",
-     "bank_url": "https://www.findrate.tw/bank/34/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 25.27,
-     "spot_sell": 25.48,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額1%,最低100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "聯邦銀行",
-     "bank_url": "https://www.findrate.tw/bank/27/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 25.236,
-     "spot_sell": 25.536,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "台幣總額0.7%,最低NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.006999999999999999,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.006999999999999999,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "元大銀行",
-     "bank_url": "https://www.findrate.tw/bank/4/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 25.27,
-     "spot_sell": 25.43,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
      "bank": "凱基銀行",
      "bank_url": "https://www.findrate.tw/bank/33/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 25.299,
-     "spot_sell": 25.519,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 25.445,
+     "spot_sell": 25.665,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "台幣總額之1%",
       "notes": "",
@@ -4797,13 +4667,143 @@
      }
     },
     {
+     "bank": "陽信銀行",
+     "bank_url": "https://www.findrate.tw/bank/36/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 25.45,
+     "spot_sell": 25.65,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "富邦銀行",
+     "bank_url": "https://www.findrate.tw/bank/8/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 25.4314,
+     "spot_sell": 25.6714,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "總額0.135%,最低NT$100（J卡8折優惠）",
+      "notes": "J卡8折優惠",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.00135,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.00135,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "聯邦銀行",
+     "bank_url": "https://www.findrate.tw/bank/27/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 25.46,
+     "spot_sell": 25.64,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "台幣總額0.7%,最低NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.006999999999999999,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.006999999999999999,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "星展銀行",
+     "bank_url": "https://www.findrate.tw/bank/19/",
+     "cash_buy": 25.339,
+     "cash_sell": 25.76,
+     "spot_buy": 25.474,
+     "spot_sell": 25.629,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "總額1%,最低NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "第一銀行",
+     "bank_url": "https://www.findrate.tw/bank/26/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 25.452,
+     "spot_sell": 25.652,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100,非本行每筆$200",
+      "notes": "非本行每筆200",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
      "bank": "板信銀行",
      "bank_url": "https://www.findrate.tw/bank/20/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 25.28,
-     "spot_sell": 25.51,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 25.44,
+     "spot_sell": 25.67,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "台幣總額0.5%,最低NT$100",
       "notes": "",
@@ -4823,39 +4823,39 @@
      }
     },
     {
-     "bank": "土地銀行",
-     "bank_url": "https://www.findrate.tw/bank/12/",
+     "bank": "國泰世華",
+     "bank_url": "https://www.findrate.tw/bank/11/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 25.32,
-     "spot_sell": 25.48,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 25.46,
+     "spot_sell": 25.66,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "免手續費",
+      "raw": "每筆NT$200",
       "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
-       "flat_twd": 0.0,
+       "flat_twd": 200.0,
        "pct": null,
        "min_twd": null
       },
       "buy": {
        "kind": "flat",
-       "flat_twd": 0.0,
+       "flat_twd": 200.0,
        "pct": null,
        "min_twd": null
       }
      }
     },
     {
-     "bank": "兆豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/5/",
-     "cash_buy": 24.81,
-     "cash_sell": 25.7,
-     "spot_buy": 25.3,
-     "spot_sell": 25.48,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "土地銀行",
+     "bank_url": "https://www.findrate.tw/bank/12/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 25.47,
+     "spot_sell": 25.63,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -4879,9 +4879,61 @@
      "bank_url": "https://www.findrate.tw/bank/41/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 25.309,
-     "spot_sell": 25.465,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 25.473,
+     "spot_sell": 25.629,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "兆豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/5/",
+     "cash_buy": 24.97,
+     "cash_sell": 25.86,
+     "spot_buy": 25.46,
+     "spot_sell": 25.64,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "免手續費",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 0.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 0.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "高雄銀行",
+     "bank_url": "https://www.findrate.tw/bank/37/",
+     "cash_buy": 25.27,
+     "cash_sell": 25.81,
+     "spot_buy": 25.47,
+     "spot_sell": 25.61,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -4905,165 +4957,9 @@
      "bank_url": "https://www.findrate.tw/bank/21/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 25.3252,
-     "spot_sell": 25.5533,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "星展銀行",
-     "bank_url": "https://www.findrate.tw/bank/19/",
-     "cash_buy": 25.115,
-     "cash_sell": 25.638,
-     "spot_buy": 25.252,
-     "spot_sell": 25.505,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額1%,最低NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "台新銀行",
-     "bank_url": "https://www.findrate.tw/bank/9/",
-     "cash_buy": 24.957,
-     "cash_sell": 25.617,
-     "spot_buy": 25.257,
-     "spot_sell": 25.517,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "有賬戶免手續費",
-      "notes": "",
-      "parsed": false,
-      "sell": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "高雄銀行",
-     "bank_url": "https://www.findrate.tw/bank/37/",
-     "cash_buy": 25.11,
-     "cash_sell": 25.65,
-     "spot_buy": 25.31,
-     "spot_sell": 25.45,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "華南銀行",
-     "bank_url": "https://www.findrate.tw/bank/31/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 25.271,
-     "spot_sell": 25.472,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "合作金庫",
-     "bank_url": "https://www.findrate.tw/bank/10/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 25.23,
-     "spot_sell": 25.53,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100,有開戶免收",
-      "notes": "有開戶免收",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "台中銀行",
-     "bank_url": "https://www.findrate.tw/bank/7/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 25.29,
-     "spot_sell": 25.49,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 25.4393,
+     "spot_sell": 25.6697,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -5087,9 +4983,87 @@
      "bank_url": "https://www.findrate.tw/bank/17/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 25.315,
-     "spot_sell": 25.515,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 25.452,
+     "spot_sell": 25.652,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "台新銀行",
+     "bank_url": "https://www.findrate.tw/bank/9/",
+     "cash_buy": 25.121,
+     "cash_sell": 25.781,
+     "spot_buy": 25.421,
+     "spot_sell": 25.681,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "有賬戶免手續費",
+      "notes": "",
+      "parsed": false,
+      "sell": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "華南銀行",
+     "bank_url": "https://www.findrate.tw/bank/31/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 25.463,
+     "spot_sell": 25.643,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "台中銀行",
+     "bank_url": "https://www.findrate.tw/bank/7/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 25.45,
+     "spot_sell": 25.65,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -5115,7 +5089,7 @@
      "cash_sell": null,
      "spot_buy": 25.31,
      "spot_sell": 25.49,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額0.7%,最低NT$100",
       "notes": "",
@@ -5139,9 +5113,9 @@
      "bank_url": "https://www.findrate.tw/bank/25/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 25.33,
-     "spot_sell": 25.49,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 25.47,
+     "spot_sell": 25.63,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100 ATM免收",
       "notes": "ATM免收",
@@ -5165,12 +5139,38 @@
      "bank_url": "https://www.findrate.tw/bank/15/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 25.29,
-     "spot_sell": 25.49,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 25.45,
+     "spot_sell": 25.65,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "非本行每筆NT100",
       "notes": "非本行客戶費率;本行客戶請洽銀行",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "合作金庫",
+     "bank_url": "https://www.findrate.tw/bank/10/",
+     "cash_buy": null,
+     "cash_sell": null,
+     "spot_buy": 25.47,
+     "spot_sell": 25.65,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100,有開戶免收",
+      "notes": "有開戶免收",
       "parsed": true,
       "sell": {
        "kind": "flat",
@@ -5191,9 +5191,9 @@
      "bank_url": "https://www.findrate.tw/bank/32/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 25.33,
-     "spot_sell": 25.53,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 25.45,
+     "spot_sell": 25.65,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -5217,9 +5217,9 @@
      "bank_url": "https://www.findrate.tw/bank/3/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 25.3066,
-     "spot_sell": 25.4866,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 25.4577,
+     "spot_sell": 25.6377,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額0.6%",
       "notes": "",
@@ -5296,13 +5296,39 @@
      }
     },
     {
+     "bank": "彰化銀行",
+     "bank_url": "https://www.findrate.tw/bank/16/",
+     "cash_buy": 4.8063,
+     "cash_sell": 5.0063,
+     "spot_buy": 4.8843,
+     "spot_sell": 4.9283,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "結購外幣現鈔免收",
+      "notes": "僅結購(買外幣)方向明示免收",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 0.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
      "bank": "渣打銀行",
      "bank_url": "https://www.findrate.tw/bank/23/",
-     "cash_buy": 4.782,
-     "cash_sell": 4.984,
-     "spot_buy": 4.8588,
-     "spot_sell": 4.9072,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.806,
+     "cash_sell": 5.008,
+     "spot_buy": 4.8828,
+     "spot_sell": 4.9312,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$500",
       "notes": "",
@@ -5322,16 +5348,68 @@
      }
     },
     {
-     "bank": "第一銀行",
-     "bank_url": "https://www.findrate.tw/bank/26/",
-     "cash_buy": 4.786,
-     "cash_sell": 4.939,
-     "spot_buy": 4.859,
-     "spot_sell": 4.909,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "遠東商銀",
+     "bank_url": "https://www.findrate.tw/bank/34/",
+     "cash_buy": 4.798,
+     "cash_sell": 5.016,
+     "spot_buy": 4.868,
+     "spot_sell": 4.946,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "每筆NT$100,非本行每筆$200",
-      "notes": "非本行每筆200",
+      "raw": "總額1%,最低100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
+      }
+     }
+    },
+    {
+     "bank": "匯豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/6/",
+     "cash_buy": 4.78162,
+     "cash_sell": 5.0312,
+     "spot_buy": 4.88162,
+     "spot_sell": 4.9312,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "台幣總額之0.5%",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.005,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.005,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "元大銀行",
+     "bank_url": "https://www.findrate.tw/bank/4/",
+     "cash_buy": 4.782,
+     "cash_sell": 4.968,
+     "spot_buy": 4.882,
+     "spot_sell": 4.932,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
@@ -5352,9 +5430,9 @@
      "bank_url": "https://www.findrate.tw/bank/22/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 4.873,
-     "spot_sell": 4.923,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 4.879,
+     "spot_sell": 4.929,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -5374,53 +5452,27 @@
      }
     },
     {
-     "bank": "彰化銀行",
-     "bank_url": "https://www.findrate.tw/bank/16/",
-     "cash_buy": 4.7863,
-     "cash_sell": 4.9863,
-     "spot_buy": 4.8643,
-     "spot_sell": 4.9083,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "陽信銀行",
+     "bank_url": "https://www.findrate.tw/bank/36/",
+     "cash_buy": 4.788,
+     "cash_sell": 5.028,
+     "spot_buy": 4.873,
+     "spot_sell": 4.943,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "結購外幣現鈔免收",
-      "notes": "僅結購(買外幣)方向明示免收",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 0.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "匯豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/6/",
-     "cash_buy": 4.7615,
-     "cash_sell": 5.01088,
-     "spot_buy": 4.8615,
-     "spot_sell": 4.91088,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "台幣總額之0.5%",
+      "raw": "每筆NT$100",
       "notes": "",
       "parsed": true,
       "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.005,
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
        "min_twd": null
       },
       "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.005,
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
        "min_twd": null
       }
      }
@@ -5428,11 +5480,11 @@
     {
      "bank": "富邦銀行",
      "bank_url": "https://www.findrate.tw/bank/8/",
-     "cash_buy": 4.7194,
-     "cash_sell": 4.9444,
-     "spot_buy": 4.8544,
-     "spot_sell": 4.9144,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.7463,
+     "cash_sell": 4.9613,
+     "spot_buy": 4.8813,
+     "spot_sell": 4.9313,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額0.135%,最低NT$100（J卡8折優惠）",
       "notes": "J卡8折優惠",
@@ -5452,91 +5504,13 @@
      }
     },
     {
-     "bank": "陽信銀行",
-     "bank_url": "https://www.findrate.tw/bank/36/",
-     "cash_buy": 4.762,
-     "cash_sell": 5.002,
-     "spot_buy": 4.847,
-     "spot_sell": 4.917,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "國泰世華",
-     "bank_url": "https://www.findrate.tw/bank/11/",
-     "cash_buy": 4.741,
-     "cash_sell": 4.936,
-     "spot_buy": 4.841,
-     "spot_sell": 4.916,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$200",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 200.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 200.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "遠東商銀",
-     "bank_url": "https://www.findrate.tw/bank/34/",
-     "cash_buy": 4.7709,
-     "cash_sell": 4.9889,
-     "spot_buy": 4.843,
-     "spot_sell": 4.917,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額1%,最低100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
      "bank": "聯邦銀行",
      "bank_url": "https://www.findrate.tw/bank/27/",
-     "cash_buy": 4.745,
-     "cash_sell": 4.955,
-     "spot_buy": 4.855,
-     "spot_sell": 4.915,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.767,
+     "cash_sell": 4.977,
+     "spot_buy": 4.877,
+     "spot_sell": 4.937,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "台幣總額0.7%,最低NT$100",
       "notes": "",
@@ -5556,42 +5530,42 @@
      }
     },
     {
-     "bank": "元大銀行",
-     "bank_url": "https://www.findrate.tw/bank/4/",
-     "cash_buy": 4.755,
-     "cash_sell": 4.941,
-     "spot_buy": 4.855,
-     "spot_sell": 4.905,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "星展銀行",
+     "bank_url": "https://www.findrate.tw/bank/19/",
+     "cash_buy": 4.8123,
+     "cash_sell": 4.9989,
+     "spot_buy": 4.8836,
+     "spot_sell": 4.928,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "每筆NT$100",
+      "raw": "總額1%,最低NT$100",
       "notes": "",
       "parsed": true,
       "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
       },
       "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
+       "kind": "percent",
+       "flat_twd": null,
+       "pct": 0.01,
+       "min_twd": 100.0
       }
      }
     },
     {
-     "bank": "三信商銀",
-     "bank_url": "https://www.findrate.tw/bank/0/",
-     "cash_buy": 4.783,
-     "cash_sell": 4.995,
-     "spot_buy": 4.858,
-     "spot_sell": 4.92,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "第一銀行",
+     "bank_url": "https://www.findrate.tw/bank/26/",
+     "cash_buy": 4.808,
+     "cash_sell": 4.961,
+     "spot_buy": 4.881,
+     "spot_sell": 4.931,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
+      "raw": "每筆NT$100,非本行每筆$200",
+      "notes": "非本行每筆200",
       "parsed": true,
       "sell": {
        "kind": "flat",
@@ -5610,11 +5584,11 @@
     {
      "bank": "板信銀行",
      "bank_url": "https://www.findrate.tw/bank/20/",
-     "cash_buy": 4.763,
-     "cash_sell": 4.953,
-     "spot_buy": 4.858,
-     "spot_sell": 4.908,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.786,
+     "cash_sell": 4.976,
+     "spot_buy": 4.881,
+     "spot_sell": 4.931,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "台幣總額0.5%,最低NT$100",
       "notes": "",
@@ -5634,13 +5608,39 @@
      }
     },
     {
-     "bank": "土地銀行",
-     "bank_url": "https://www.findrate.tw/bank/12/",
-     "cash_buy": 4.786,
-     "cash_sell": 4.951,
-     "spot_buy": 4.852,
-     "spot_sell": 4.913,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "國泰世華",
+     "bank_url": "https://www.findrate.tw/bank/11/",
+     "cash_buy": 4.78,
+     "cash_sell": 4.95,
+     "spot_buy": 4.88,
+     "spot_sell": 4.93,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$200",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 200.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 200.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "郵局",
+     "bank_url": "https://www.findrate.tw/bank/35/",
+     "cash_buy": 4.8066,
+     "cash_sell": 4.9786,
+     "spot_buy": 4.88,
+     "spot_sell": 4.93,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -5660,13 +5660,13 @@
      }
     },
     {
-     "bank": "兆豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/5/",
-     "cash_buy": 4.79,
-     "cash_sell": 4.952,
-     "spot_buy": 4.86,
-     "spot_sell": 4.91,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "土地銀行",
+     "bank_url": "https://www.findrate.tw/bank/12/",
+     "cash_buy": 4.807,
+     "cash_sell": 4.972,
+     "spot_buy": 4.882,
+     "spot_sell": 4.932,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "免手續費",
       "notes": "",
@@ -5690,9 +5690,9 @@
      "bank_url": "https://www.findrate.tw/bank/41/",
      "cash_buy": null,
      "cash_sell": null,
-     "spot_buy": 4.8658,
-     "spot_sell": 4.9038,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "spot_buy": 4.8876,
+     "spot_sell": 4.9256,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -5712,78 +5712,26 @@
      }
     },
     {
-     "bank": "永豐銀行",
-     "bank_url": "https://www.findrate.tw/bank/21/",
-     "cash_buy": 4.7811,
-     "cash_sell": 4.9486,
-     "spot_buy": 4.8631,
-     "spot_sell": 4.9186,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "兆豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/5/",
+     "cash_buy": 4.81,
+     "cash_sell": 4.972,
+     "spot_buy": 4.88,
+     "spot_sell": 4.93,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "每筆NT$100",
+      "raw": "免手續費",
       "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
-       "flat_twd": 100.0,
+       "flat_twd": 0.0,
        "pct": null,
        "min_twd": null
       },
       "buy": {
        "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "星展銀行",
-     "bank_url": "https://www.findrate.tw/bank/19/",
-     "cash_buy": 4.7799,
-     "cash_sell": 4.9861,
-     "spot_buy": 4.8512,
-     "spot_sell": 4.9151,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "總額1%,最低NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      },
-      "buy": {
-       "kind": "percent",
-       "flat_twd": null,
-       "pct": 0.01,
-       "min_twd": 100.0
-      }
-     }
-    },
-    {
-     "bank": "台新銀行",
-     "bank_url": "https://www.findrate.tw/bank/9/",
-     "cash_buy": 4.7928,
-     "cash_sell": 4.9228,
-     "spot_buy": 4.8618,
-     "spot_sell": 4.9078,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "有賬戶免手續費",
-      "notes": "",
-      "parsed": false,
-      "sell": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "unknown",
-       "flat_twd": null,
+       "flat_twd": 0.0,
        "pct": null,
        "min_twd": null
       }
@@ -5792,11 +5740,37 @@
     {
      "bank": "瑞興銀行",
      "bank_url": "https://www.findrate.tw/bank/38/",
-     "cash_buy": 4.79,
-     "cash_sell": 4.99,
-     "spot_buy": 4.865,
-     "spot_sell": 4.915,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.8073,
+     "cash_sell": 5.0073,
+     "spot_buy": 4.8823,
+     "spot_sell": 4.9323,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "三信商銀",
+     "bank_url": "https://www.findrate.tw/bank/0/",
+     "cash_buy": 4.806,
+     "cash_sell": 5.008,
+     "spot_buy": 4.881,
+     "spot_sell": 4.933,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -5818,11 +5792,11 @@
     {
      "bank": "高雄銀行",
      "bank_url": "https://www.findrate.tw/bank/37/",
-     "cash_buy": 4.772,
-     "cash_sell": 4.952,
-     "spot_buy": 4.862,
-     "spot_sell": 4.902,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.795,
+     "cash_sell": 4.975,
+     "spot_buy": 4.885,
+     "spot_sell": 4.925,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -5842,65 +5816,13 @@
      }
     },
     {
-     "bank": "華南銀行",
-     "bank_url": "https://www.findrate.tw/bank/31/",
-     "cash_buy": null,
-     "cash_sell": null,
-     "spot_buy": 4.853,
-     "spot_sell": 4.912,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100",
-      "notes": "",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "合作金庫",
-     "bank_url": "https://www.findrate.tw/bank/10/",
-     "cash_buy": 4.738,
-     "cash_sell": 4.961,
-     "spot_buy": 4.841,
-     "spot_sell": 4.921,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "每筆NT$100,有開戶免收",
-      "notes": "有開戶免收",
-      "parsed": true,
-      "sell": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "flat",
-       "flat_twd": 100.0,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
-     "bank": "台中銀行",
-     "bank_url": "https://www.findrate.tw/bank/7/",
-     "cash_buy": 4.763,
-     "cash_sell": 4.948,
-     "spot_buy": 4.858,
-     "spot_sell": 4.908,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "永豐銀行",
+     "bank_url": "https://www.findrate.tw/bank/21/",
+     "cash_buy": 4.7946,
+     "cash_sell": 4.9627,
+     "spot_buy": 4.8766,
+     "spot_sell": 4.9327,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -5922,11 +5844,11 @@
     {
      "bank": "新光銀行",
      "bank_url": "https://www.findrate.tw/bank/17/",
-     "cash_buy": 4.77,
-     "cash_sell": 4.956,
-     "spot_buy": 4.865,
-     "spot_sell": 4.915,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.787,
+     "cash_sell": 4.973,
+     "spot_buy": 4.882,
+     "spot_sell": 4.932,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -5946,26 +5868,78 @@
      }
     },
     {
-     "bank": "郵局",
-     "bank_url": "https://www.findrate.tw/bank/35/",
-     "cash_buy": 4.7866,
-     "cash_sell": 4.9586,
-     "spot_buy": 4.86,
-     "spot_sell": 4.91,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "bank": "台新銀行",
+     "bank_url": "https://www.findrate.tw/bank/9/",
+     "cash_buy": 4.8146,
+     "cash_sell": 4.9446,
+     "spot_buy": 4.8836,
+     "spot_sell": 4.9296,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
-      "raw": "免手續費",
+      "raw": "有賬戶免手續費",
+      "notes": "",
+      "parsed": false,
+      "sell": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "華南銀行",
+     "bank_url": "https://www.findrate.tw/bank/31/",
+     "cash_buy": 4.787,
+     "cash_sell": 4.955,
+     "spot_buy": 4.885,
+     "spot_sell": 4.929,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
       "notes": "",
       "parsed": true,
       "sell": {
        "kind": "flat",
-       "flat_twd": 0.0,
+       "flat_twd": 100.0,
        "pct": null,
        "min_twd": null
       },
       "buy": {
        "kind": "flat",
-       "flat_twd": 0.0,
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "台中銀行",
+     "bank_url": "https://www.findrate.tw/bank/7/",
+     "cash_buy": 4.786,
+     "cash_sell": 4.971,
+     "spot_buy": 4.881,
+     "spot_sell": 4.931,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100",
+      "notes": "",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
        "pct": null,
        "min_twd": null
       }
@@ -5978,7 +5952,7 @@
      "cash_sell": 4.966,
      "spot_buy": 4.86,
      "spot_sell": 4.906,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額0.7%,最低NT$100",
       "notes": "",
@@ -6000,11 +5974,11 @@
     {
      "bank": "玉山銀行",
      "bank_url": "https://www.findrate.tw/bank/25/",
-     "cash_buy": 4.819,
-     "cash_sell": 4.979,
-     "spot_buy": 4.865,
-     "spot_sell": 4.915,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.837,
+     "cash_sell": 4.997,
+     "spot_buy": 4.883,
+     "spot_sell": 4.933,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100 ATM免收",
       "notes": "ATM免收",
@@ -6024,39 +5998,13 @@
      }
     },
     {
-     "bank": "王道銀行",
-     "bank_url": "https://www.findrate.tw/bank/39/",
-     "cash_buy": 4.781,
-     "cash_sell": 4.991,
-     "spot_buy": 4.856,
-     "spot_sell": 4.916,
-     "updated_at": "2026-10-29T21:32:00+08:00",
-     "fee": {
-      "raw": "最低NT$100",
-      "notes": "",
-      "parsed": false,
-      "sell": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      },
-      "buy": {
-       "kind": "unknown",
-       "flat_twd": null,
-       "pct": null,
-       "min_twd": null
-      }
-     }
-    },
-    {
      "bank": "安泰銀行",
      "bank_url": "https://www.findrate.tw/bank/15/",
-     "cash_buy": 4.7546,
-     "cash_sell": 4.9476,
-     "spot_buy": 4.8601,
-     "spot_sell": 4.9051,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.7783,
+     "cash_sell": 4.9713,
+     "spot_buy": 4.8838,
+     "spot_sell": 4.9288,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "非本行每筆NT100",
       "notes": "非本行客戶費率;本行客戶請洽銀行",
@@ -6076,13 +6024,65 @@
      }
     },
     {
+     "bank": "合作金庫",
+     "bank_url": "https://www.findrate.tw/bank/10/",
+     "cash_buy": 4.777,
+     "cash_sell": 4.97,
+     "spot_buy": 4.88,
+     "spot_sell": 4.93,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "每筆NT$100,有開戶免收",
+      "notes": "有開戶免收",
+      "parsed": true,
+      "sell": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "flat",
+       "flat_twd": 100.0,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
+     "bank": "王道銀行",
+     "bank_url": "https://www.findrate.tw/bank/39/",
+     "cash_buy": 4.8,
+     "cash_sell": 5.01,
+     "spot_buy": 4.885,
+     "spot_sell": 4.925,
+     "updated_at": "2026-10-30T14:20:00+08:00",
+     "fee": {
+      "raw": "最低NT$100",
+      "notes": "",
+      "parsed": false,
+      "sell": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      },
+      "buy": {
+       "kind": "unknown",
+       "flat_twd": null,
+       "pct": null,
+       "min_twd": null
+      }
+     }
+    },
+    {
      "bank": "華泰銀行",
      "bank_url": "https://www.findrate.tw/bank/32/",
-     "cash_buy": 4.789,
-     "cash_sell": 4.997,
-     "spot_buy": 4.868,
-     "spot_sell": 4.918,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.802,
+     "cash_sell": 5.01,
+     "spot_buy": 4.881,
+     "spot_sell": 4.931,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "每筆NT$100",
       "notes": "",
@@ -6104,11 +6104,11 @@
     {
      "bank": "京城銀行",
      "bank_url": "https://www.findrate.tw/bank/3/",
-     "cash_buy": 4.7856,
-     "cash_sell": 4.9856,
-     "spot_buy": 4.8606,
-     "spot_sell": 4.9106,
-     "updated_at": "2026-10-29T21:32:00+08:00",
+     "cash_buy": 4.8061,
+     "cash_sell": 5.0061,
+     "spot_buy": 4.8811,
+     "spot_sell": 4.9311,
+     "updated_at": "2026-10-30T14:20:00+08:00",
      "fee": {
       "raw": "總額0.6%",
       "notes": "",
@@ -6131,7 +6131,7 @@
   }
  },
  "metals": {
-  "usd_twd_ref": 32.52,
+  "usd_twd_ref": 32.65,
   "source": {
    "name": "gold-api.com（國際盤即時價）",
    "url": "https://www.gold-api.com/"
@@ -6140,30 +6140,30 @@
    {
     "symbol": "XAU",
     "name": "黃金",
-    "usd_per_oz": 4027.4,
-    "twd_per_gram": 4210.8,
-    "updated_at": "2026-10-29T13:52:38Z"
+    "usd_per_oz": 3989.2,
+    "twd_per_gram": 4187.6,
+    "updated_at": "2026-10-30T06:41:11Z"
    },
    {
     "symbol": "XAG",
     "name": "白銀",
-    "usd_per_oz": 52.29,
-    "twd_per_gram": 54.7,
-    "updated_at": "2026-10-29T13:52:38Z"
+    "usd_per_oz": 51.05,
+    "twd_per_gram": 53.6,
+    "updated_at": "2026-10-30T06:41:11Z"
    },
    {
     "symbol": "XPT",
     "name": "白金",
-    "usd_per_oz": 1486.0,
-    "twd_per_gram": 1553.7,
-    "updated_at": "2026-10-29T13:52:42Z"
+    "usd_per_oz": 1447.0,
+    "twd_per_gram": 1518.9,
+    "updated_at": "2026-10-30T06:41:14Z"
    },
    {
     "symbol": "XPD",
     "name": "鈀金",
-    "usd_per_oz": 1022.0,
-    "twd_per_gram": 1068.5,
-    "updated_at": "2026-10-29T13:52:41Z"
+    "usd_per_oz": 1012.0,
+    "twd_per_gram": 1062.3,
+    "updated_at": "2026-10-30T06:41:13Z"
    }
   ]
  },
